@@ -47,10 +47,7 @@ Hoe verhouden de competenties zich tot de opgestelde leerdoelen
 
 ##Relatie eindtermen van de opleiding en beroepsprofiel##
 
-
-
-
-#Toetsing#
+##Toetsing##
 
 ##Toetsvormen##
 
