@@ -1,8 +1,10 @@
 Markdown syntax reference guide
 ===============================
-Writer for Mac supports a subset of the Markdown formatting language. Markdown lets you apply basic formatting simply by typing characters.
+Writer for Mac supports a subset of the Markdown formatting language. 
+Markdown lets you apply basic formatting simply by typing characters.
 
-In addition to Writer for Mac’s ability to Export to RTF and HTML, you can also convert Markdown to other formats such as .docx and PDF using programs like Marked and Pandoc.
+In addition to Writer for Mac’s ability to Export to RTF and HTML, 
+you can also convert Markdown to other formats such as .docx and PDF using programs like Marked and Pandoc.
 
 Currently Writer for Mac displays this formatting using Auto Markdown, such as underline for *emphasis* and a bold font for **strong**. This is not supported in Writer for iOS at present.
 
