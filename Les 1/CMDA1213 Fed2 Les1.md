@@ -228,7 +228,7 @@ Nog iets anders dat van belang is om script met objecten te maken? Voordat we di
 **Materiaal** Intranet
 **Opstelling** - 
 
-Wat hebben we behandeld?
+Lesdoelen: Wat hebben we behandeld?
 
 Werkwijze en planning van het vak
 
