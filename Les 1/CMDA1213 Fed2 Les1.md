@@ -53,9 +53,9 @@ Artikelen lezen voor discussie
 Werken in duo’s. Je werkt wel een je eigen project.
 
 
-Stackoverflow methode:
-Vragen kost niets, op antwoord moet je soms wachten
-Javascript is soms abstract of de documentatie van MVC frameworks is onvolledig. Joost weet hoe het toe te passen, uitleggen kan lastig zijn. Hoe gaan we hiermee om? We verzamelen vragen waar we niet meteen het antwoord van kunnen ophoesten en deze komen volgende week aan bod en/of worden meegegeven als huiswerk. Een student uit de verdieping moet in staat zijn een leerstrategie te ontwikkelen. 
+Methode Stackoverflow:
+Vragen kost niets, op het antwoord moet je soms wachten.
+Javascript is soms abstract of de documentatie van bij voorbeeld MVC frameworks is onvolledig. Joost weet hoe het toe te passen, uitleggen kan lastig zijn. Hoe gaan we hiermee om? We verzamelen vragen waar we niet meteen het antwoord van kunnen ophoesten en deze komen volgende week aan bod en/of worden meegegeven als huiswerk. Een student uit de verdieping moet in staat zijn een leerstrategie te ontwikkelen. 
 
 Dingen zelf kunnen onderzoeken en oplossen.
 
