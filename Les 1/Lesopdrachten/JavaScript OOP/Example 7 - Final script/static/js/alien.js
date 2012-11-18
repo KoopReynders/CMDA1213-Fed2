@@ -10,7 +10,7 @@
 	var BASE_IMAGE_URL = './static/images/';
 	
 	// Constructor object Alien, with two arguments; name & element
-	function Alien(name,element) {
+	function Alien(name, element) {
 		// Define properties of the Alien object
 		this.name = name;
 		this.visual = $('img');
