@@ -1,24 +1,24 @@
 CMDA201213-Fed2 Les 1
 =====================
 
-#Les 1: Codemonkies#
+#Les 1: Codemonkies
 **Javascript: Leren denken in objecten**
 
 Deze les geeft een snelle introductie in programmeren in JavaScript. Op basis van de 'Fundamentals' die je moest lezen ter voorbereiding wordt tijdens de les een basis gelegd voor Object georiënteerd programmeren: Leren denken in objecten.
 
-###Docenten###
+###Docenten
 Koop Reynders k.g.reynders@hva.nl 
 
 Joost Faber j.faber@hva.nl
 
-###Lesdoelen###
+###Lesdoelen
 
 * Werkwijze, leerdoelen en planning van het vak bespreken
 * Wat is een Frontend developer?
 * Wat is HTML5? 
 * Beginnen met object georiënteerd programmeren in Javascript
 
-###Programma (200 minuten)###
+###Programma (200 minuten)
 
 1. Huishoudelijke mededelingen (15) 
 2. College (20) 
@@ -27,24 +27,15 @@ Joost Faber j.faber@hva.nl
 5. Terugkijken (5) 
 
 
-##1. Huishoudelijke mededelingen - 15 minuten (15/200)##
+##1. Huishoudelijke mededelingen - 15 minuten (15/200)
 **Materiaal:** - 
 **Opstelling:** College opstelling
 
 
-###Introductie Docenten ###
+###Introductie Docenten
 
-###Huishoudelijke mededelingen###
-Op tijd komen voor het college, anders wachten tot we klaar zijn.
 
-Niet mailen, mededelingen op intranet,
-
-Vraag zoveel mogelijk aan je medestudenten of wacht tot volgende week 
-Vragen stellen en elkaar helpen
-Laptop voor werkopdrachten
-Papier en pen voor discussies en college.
-
-###Werkwijze###
+###Werkwijze
 Hoe zien de lessen eruit?
 Intranet > pagina Frontend 2: werkwijze
 Intranet > pagina Frontend 2: lesprogramma week tot week
@@ -59,17 +50,27 @@ Javascript is soms abstract of de documentatie van bij voorbeeld MVC frameworks 
 
 Dingen zelf kunnen onderzoeken en oplossen.
 
-###Leerdoelen###
+###Leerdoelen
 Technology driven design vak
 
-###Planning###
+###Planning
 Lesprogramma, toetsen en criteria 
 Eindopdracht Frisbee toernooi: Threesome
 Voorbeeld app: Leaguevine (frisbee) scoring ding 
 
+###Huishoudelijke mededelingen
+Op tijd komen voor het college, anders wachten tot we klaar zijn.
+
+Niet mailen, mededelingen op intranet,
+
+Vraag zoveel mogelijk aan je medestudenten of wacht tot volgende week 
+Vragen stellen en elkaar helpen
+Laptop voor werkopdrachten
+Papier en pen voor discussies en college.
 
 
-##2. College - 20 minuten (35/200)##
+
+##2. College - 20 minuten (35/200)
 **Materiaal:** Papier en pen voor aantekeningen
 **Opstelling:** Rijen, college opstelling
 
@@ -98,7 +99,7 @@ Wat gaan we deze lessen reeks behandelen
 - Nuts & Bolts
 
 
-##3. De Weekly Nerd - 10 minuten (45/200)##
+##3. De Weekly Nerd - 10 minuten (45/200)
 **Materiaal:** -
 **Opstelling:** klas in 2 groepen? 2 grote eilanden
 
@@ -154,7 +155,7 @@ http://mashable.com/2012/11/12/javascript/
 http://mashable.com/tag/future-web-series/
 
 
-##4. Werkopdrachten - 150 minuten (195/200)##
+##4. Werkopdrachten - 150 minuten (195/200)
 **Materiaal** Laptop en internet
 **Opstelling** Werkeilanden waar twee duo’s aan kunnen zitten
 
@@ -180,11 +181,10 @@ In les 1 en 2 leer je Object georiënteerd programmeren in Javascript.  Dat bete
 Waarom? Om vanaf les 3 aan de slag te kunnen met MVC. Wat moeten studenten kunnen om MVC in les 3 te begrijpen? 
 
 Eindopdracht les 2: Functie van CMD Aan omzetten naar een script gebaseerd op objecten.
-
 Welk stappen moet je hiervoor ondernemen? Dat zijn de lesopdrachten les 1 & 2
 
 
-###Les 1: Leren denken in objecten###
+###Les 1: Leren denken in objecten
 
 - Mini college over local, global en objecten, met behulp van een eenvoudig script opgebouwd uit objecten
 - Self invoked function: Scope / This / Closure / Locale en globale variabelen
@@ -201,9 +201,8 @@ Welk stappen moet je hiervoor ondernemen? Dat zijn de lesopdrachten les 1 & 2
 
 
 
-###Les 2: Object Geörienteerd Programeren###
+###Les 2: Object Geörienteerd Programeren
 
-- Mini college over ...
 - Codecadamy: Introduction to Objects II - Closer look at Objects
 	- Over Classes en Prototype
 	- Inheritance
@@ -211,20 +210,14 @@ Welk stappen moet je hiervoor ondernemen? Dat zijn de lesopdrachten les 1 & 2
 - Omzetten van een aantal functies naar een script gebaseerd op objecten
 	- Functie samen lezen
 	- Breakdown maken met de klas van Geo script
-	- In stappen naar het script werken, die overeenkomen met de volgorde van lesopdrachten
-Outro 
-- Recap 
-	- Over objecten uit les 1, events en script dat we hebben gemaakt
-- Vooruit kijken
- 	- Volgende week: MVC 
-	- huiswerk
 
-Events? In de cursussen op Codecademy staat dit nog niet in de introductie lessen. Misschien kunnen we het doorschuiven naar MVC in les 3?
-Nog iets anders dat van belang is om script met objecten te maken? Voordat we die opdracht kunnen laten maken?
+###Les 3: Introductie MVC
 
 
 
-##5. Terugkijken - 5 minuten (200/200)##
+
+
+##5. Terugkijken - 5 minuten (200/200)
 **Materiaal** Intranet
 **Opstelling** - 
 

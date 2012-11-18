@@ -50,13 +50,13 @@ Het lesprogramma bestaat uit 9 lessen inclusief de eindtoets in lesweek 9.
 - Les 0: Voorbereiding - JavaScript fundamentals voorbereiden > Values, Variables, Control flow, Functions, Objects and Arrays
 - Les 1: Codemonkies - Introduktie JavaScript > Leren denken in objecten
 - Les 2: I'm an object - Introduktie JavaScript Object Georiënteerd Programmeren
-- Les 3: 
-- Les 4: 
-- Les 5: Deeltoets (summatief)
-- Les 6: 
-- Les 7: 
-- Les 8: Crashtest
-- Les 9: Eindtoets (formatief)
+- Les 3: Fork me - Gestructureerd programeren MVC 
+- Les 4: - MVC Server vs. Client data
+- Les 5: - MVC the View / Deeltoets (summatief)
+- Les 6: Interface en interactiepatronen
+- Les 7: Interface en interactiepatronen
+- Les 8: / Crashtest
+- Les 9: / Eindtoets (formatief)
 
 
 ##Toetsing
