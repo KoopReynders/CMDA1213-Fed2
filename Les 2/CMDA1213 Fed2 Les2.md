@@ -1,22 +1,22 @@
 CMDA201213-Fed2 Les 2
 =====================
 
-#Les 2: I'm an Object#
+#Les 2: I'm an Object
 **Javascript: Leren denken in objecten**
 
 Ter voorbereiding op het werken met een MVC framework (les 3) leer je gestructureerd werken met behulp van JavaScript. In deze les gaan we verder met de principes van Object Oriented Programming. De les eindigt met het omzetten van een aantal functies naar een script gebaseerd op objecten.
 
-###Docenten###
+###Docenten
 Koop Reynders k.g.reynders@hva.nl 
 
 Joost Faber j.faber@hva.nl
 
-###Lesdoelen###
+###Lesdoelen
 
 * Wat is een Frontend developer?
 * Object georiënteerd programmeren in Javascript
 
-###Programma (200 minuten)###
+###Programma (200 minuten)
 
 1. Huishoudelijke mededelingen (10) 
 2. College (0)
@@ -25,17 +25,17 @@ Joost Faber j.faber@hva.nl
 5. Terugkijken (10) 
 
 
-##1. Huishoudelijke mededelingen - 10 minuten (10/200)##
+##1. Huishoudelijke mededelingen - 10 minuten (10/200)
 **Materiaal:** - 
 **Opstelling:** College opstelling
 
 
-##2. College - 0 minuten (10/200)##
+##2. College - 0 minuten (10/200)
 **Materiaal:** Papier en pen voor aantekeningen
 **Opstelling:** Rijen, college opstelling
 
 
-##3. De Weekly Nerd - 30 minuten (40/200)##
+##3. De Weekly Nerd - 30 minuten (40/200)
 **Materiaal:** -
 **Opstelling:** klas in 2 groepen? 2 grote eilanden
 
@@ -50,7 +50,7 @@ http://mashable.com/2012/11/12/javascript/
 http://mashable.com/tag/future-web-series/
 
 
-##4. Werkopdrachten - 150 minuten (195/200)##
+##4. Werkopdrachten - 150 minuten (195/200)
 **Materiaal** Laptop en internet
 **Opstelling** Werkeilanden waar twee duo’s aan kunnen zitten
 
@@ -64,7 +64,8 @@ Eindopdracht les 2: Functie van CMD Aan omzetten naar een script gebaseerd op ob
 
 Welk stappen moet je hiervoor ondernemen? Dat zijn de lesopdrachten les 1 & 2
 
-###Les 2: Object Geörienteerd Programeren###
+
+###Les 2: Object Geörienteerd Programeren
 
 - Mini college over ...
 - Codecadamy: Introduction to Objects II - Closer look at Objects
@@ -87,7 +88,7 @@ Nog iets anders dat van belang is om script met objecten te maken? Voordat we di
 
 
 
-##5. Terugkijken - 10 minuten (200/200)##
+##5. Terugkijken - 10 minuten (200/200)
 **Materiaal** Intranet
 **Opstelling** - 
 
