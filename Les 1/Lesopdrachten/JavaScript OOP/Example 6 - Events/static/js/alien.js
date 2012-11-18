@@ -20,22 +20,22 @@
 			
 			switch (action) {
 				case 'laugh': 
-					self.laugh();
+					this.laugh();
 				break;
 				case 'faint': 
-					self.faint();
+					this.faint();
 				break;
 				case 'cry': 
-					self.cry();
+					this.cry();
 				break;
 				case 'rage': 
-					self.rage();
+					this.rage();
 				break;
 				case 'scares': 
-					self.scares();
+					this.scares();
 				break;
 				case 'sleep': 
-					self.sleep();
+					this.sleep();
 				break;
 			
 				default : console.log('No action');
