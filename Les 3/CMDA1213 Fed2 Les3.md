@@ -22,6 +22,36 @@ Joost Faber j.faber@hva.nl
 5. Terugkijken (10) 
 
 
+		Les 3: College over MVC
+			Voordelen van MVC
+			Nadelen van MVC, bv bedrijven die hier vastzitten
+		Les 3: Werkopdrachten: Kennismaken met MVC
+		
+		Les 3 & 4: Vanaf hier werken aan de eindodpracht
+			Skeleton neerzetten voor de eindopdracht
+				Focus op Model? Of Controler? Routing?
+				Data binnenhalen met de API
+				 - Scores posten
+				 - Wedstrijden/schedule laten zien
+				 - Ranglijsten laten zien
+
+				Local storage?
+
+			vanaf les 5 > Views/Templates
+				Progressive enhancement? Gracefull degredation
+				Crossbrowser?
+				CSS, object georienteerd?
+			Les 5 Waar gaat de deeltoets over? MVC Skeleton. 
+				Hoe laten zien
+				Toetsen wat we behandelen in les 3 en 4
+			
+		Werken in Teams > 
+		Hoe werken met Github ?
+
+	 
+		
+		
+
 ##1. Huishoudelijke mededelingen - 10 minuten (10/200)
 **Materiaal:** - 
 **Opstelling:** College opstelling

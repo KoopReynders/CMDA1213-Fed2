@@ -15,8 +15,8 @@ Joost Faber j.faber@hva.nl
 
 * Werkwijze, leerdoelen en planning van het vak bespreken
 * Wat is een Frontend developer?
-* Wat is HTML5? 
-* Beginnen met object georiënteerd programmeren in Javascript
+* Wat is HTML5 ook alweer? 
+* Leren denken in objecten 
 
 ###Programma (200 minuten)
 
@@ -43,7 +43,6 @@ Huiswerk
 Artikelen lezen voor discussie
 Werken in duo’s. Je werkt wel een je eigen project.
 
-
 Methode Stackoverflow:
 Vragen kost niets, op het antwoord moet je soms wachten.
 Javascript is soms abstract of de documentatie van bij voorbeeld MVC frameworks is onvolledig. Joost weet hoe het toe te passen, uitleggen kan lastig zijn. Hoe gaan we hiermee om? We verzamelen vragen waar we niet meteen het antwoord van kunnen ophoesten en deze komen volgende week aan bod en/of worden meegegeven als huiswerk. Een student uit de verdieping moet in staat zijn een leerstrategie te ontwikkelen. 
@@ -55,7 +54,7 @@ Technology driven design vak
 
 ###Planning
 Lesprogramma, toetsen en criteria 
-Eindopdracht Frisbee toernooi: Threesome
+Eindopdracht Frisbee toernooi score Webapp
 Voorbeeld app: Leaguevine (frisbee) scoring ding 
 
 ###Huishoudelijke mededelingen
@@ -68,6 +67,14 @@ Vragen stellen en elkaar helpen
 Laptop voor werkopdrachten
 Papier en pen voor discussies en college.
 
+	
+**Opmerkingen voor Joost**
+
+- Aanwijs ding aanvragen
+- Goede duidelijke gestructureerde uitleg
+- Mooi toneelspel met de 'foute code'
+- Ik heb je koffie opgedronken
+
 
 
 ##2. College - 20 minuten (35/200)
@@ -79,11 +86,11 @@ HTML 5 = Nieuwe HTML sematiek, CSS3 én JavaScript
 
 HTML5 API == JavaScript
 
-Wat hebben we gedaan met Front end development in de v1
+Wat hebben we gedaan met Frontend development in de v1
 
-Wat veronderstellen we als bekend
+Wat veronderstellen we als bekend?
 
-Wat gaan we deze lessen reeks behandelen
+Wat gaan we deze lessen reeks behandelen?
 
 [Recap HTML5](http://slides.html5rocks.com)
 
@@ -106,64 +113,49 @@ Wat gaan we deze lessen reeks behandelen
 De Frontend developer wie is dat?
 [Intranet Beroepsrol Frontend developer](http://intra.iam.hva.nl/algemeen/beroepsrollen/front_end-developper)
 
-Het ambacht - Learning by doing
+De scope van de Frontend developer?
+[Fronteers](http://fronteers.nl) en [Fronteers bijeenkomsten](http://fronteers.nl/bijeenkomsten "Oriënteer je op de beroepsrol Frontend developer")
 
-Frontend design
+Maar ook: Huidige ontwikkelingen & Toekomst visie?
+[Smashing magazine](http://smashingmagazine.com "For professional Web Designers and Developers")
+[A List apart](http://www.alistapart.com "For people who make Websites")
+[UX Magazine](http://uxmagazine.com "The Field of UX")
 
-Development: Codemonkies
-
-Maar ook: Huidige ontwikkelingen & Toekomst visie & De scope van de Frontend developer
-
-- [Fronteers](http://fronteers.nl) en [Fronteers bijeenkomsten](http://fronteers.nl/bijeenkomsten "Oriënteer je op de beroepsrol Frontend developer")
-- [Smashing magazine](http://smashingmagazine.com "For professional Web Designers and Developers")
-- [A List apart](http://www.alistapart.com "For people who make Websites")
-- [UX Magazine](http://uxmagazine.com "The Field of UX")
-
-
- 
-Blog: De opleiding heeft een eigen Daily Nerd nodig
+Blog: De opleiding heeft een eigen Daily Nerd nodig: De Weekly Nerd
 Elkaar beoordelen
-Hoeveel artikelen pp - redactie team - allemaal 2 daily nerds in 6 weken
-Iedere week Daily nerd bekijken en begin maken met de nieuwe redactie
-Joost en Koop posten ook, beginnen met artikelen voor les 2
-
-- [the Daily Nerd - Vasilis van Gemert](http://dailynerd.nl)
-
+Redactieteams posten 2 daily nerds in 6 weken
+Iedere week Weekly Nerd lezen en bespreken en begin maken met de nieuwe redactie
+[the Daily Nerd - Vasilis van Gemert](http://dailynerd.nl)
+[the Weekly Nerd](http://weeklynerd.tumblr.com)
 
 
+Hoe gaan we aan deze blog werken?
+6 Redactieteams per klas gaan 
+Kijk nog eens naar een aantal artikelen van Frontend development V1. Dit is interessant om je klasgenoten te laten lezen en daarna te bespreken.
 
-Welke artikelen van vorig jaar?
-Waarom deze artikelen? Taggen in Weekly Nerd blog
-Onderwerpen: Visie op het vak 
+- [Concept to Code : Code literacy in UX van Ryan Betts](http://uxmag.com/articles/concept-to-code)
+- Responsive design betekent voor sommige bedrijven een andere manier van werken. Lees deze artikelen over een summit hierover. [Responsive workflow](http://www.markboulton.co.uk/journal/responsive-summit-workflow) en [Responsive The one tool](http://www.markboulton.co.uk/journal/responsive-summit-the-one-tool) by Mark Boulton
+- Het artikel der artikelen. "The journey begins by letting go of control, and becoming flexible" [A Dao of Web Design by John Allsopp](http://www.alistapart.com/articles/dao)
 
-Kijk nog eens naar deze uitspraak van Frontend development V1
+Volgende week over de toekomst van webdevelopment. Waarom hebben we gekozen voor Javascript?
+http://mashable.com/2012/11/12/javascript/
+http://mashable.com/tag/future-web-series/
 
-- Links toevoegen over dit onderwerp
-Responsive workflow by  en Responsive The one tool by Mark Boulton
-Artikel: Het artikel Concept to Code : Code literacy in UX van Ryan Betts
-
-
-Kijk bijvoorbeeld naar deze uitspraak: 
+Tip voor een redactiegroep:
+Kijk bijvoorbeeld eens naar deze uitspraak: 
 
 *[We've had] a total of 880 million Android & iOS devices entering the market in just over five years. Consider the shift that occurs when iOS & Android put a combined billion [mobile] devices in people’s hands. That’s almost half the Internet population of the world and equivalent to the total number of (Windows) PCs in use around the world. Mobile first yet?*
 	- Luke Wroblewski
-- Links toevoegen over dit onderwerp
-
-
-Volgende week over de toekomst van webdevelopment
-http://mashable.com/2012/11/12/javascript/
-http://mashable.com/tag/future-web-series/
+- Welke artikelen horen hierbij?
 
 
 ##4. Werkopdrachten - 150 minuten (195/200)
 **Materiaal** Laptop en internet
 **Opstelling** Werkeilanden waar twee duo’s aan kunnen zitten
 
-
 Github Clone lesprogramma KoopReynders / CMDA1213-Fed2
 Github account om opdrachten te bespreken
 Github account voor de eindopdracht
-
 
 Aan de slag met Javascript
      vragen over huiswerk?
@@ -177,16 +169,19 @@ Dus je moet object georiënteerd kunnen denken om met MVC te werken
 
 Je moet leren denken in objecten
 
-In les 1 en 2 leer je Object georiënteerd programmeren in Javascript.  Dat betekent een script kunnen maken gebaseerd op objecten.
-Waarom? Om vanaf les 3 aan de slag te kunnen met MVC. Wat moeten studenten kunnen om MVC in les 3 te begrijpen? 
 
-Eindopdracht les 2: Functie van CMD Aan omzetten naar een script gebaseerd op objecten.
-Welk stappen moet je hiervoor ondernemen? Dat zijn de lesopdrachten les 1 & 2
 
 
 ###Les 1: Leren denken in objecten
 
 - Mini college over local, global en objecten, met behulp van een eenvoudig script opgebouwd uit objecten
+	- Object constructor
+	- Prototype
+	- Object literal
+	- Scope
+	- Events
+JavaScript in een pagina bekijken? Inspect element met de Webinspector. Debugging met de console. Je kunt een breakpoint zetten om de flow van je code te stoppen > handig!
+
 - Self invoked function: Scope / This / Closure / Locale en globale variabelen
 - Codecadamy: Introduction to Objects I - What is an Object 
 	- Over Methods en Properties
@@ -196,8 +191,6 @@ Welk stappen moet je hiervoor ondernemen? Dat zijn de lesopdrachten les 1 & 2
 	- Als je nog meer wilt: Codecadamy: Project: Building an Adress Book
 	- Volgende week: Events en Objecten
 	- huiswerk
-
-(Mensen die niet het huiswerk hebben gedaan lopen hier tegen de lamp. Die studenten moeten volgende week alles lezen + een film over javascript + Intro lessen Codeacademy)
 
 
 
@@ -213,19 +206,68 @@ Welk stappen moet je hiervoor ondernemen? Dat zijn de lesopdrachten les 1 & 2
 
 ###Les 3: Introductie MVC
 
+We gaan werken met Backbone, een JavaScript MVC framework. MVC is een ontwerp patroon voor je code. Door het opsplitsen van functionaliteiten van je code in verschillende objecten en classes wordt je code modulair, het bevordert de leesbaarheid en herbruikbaarheid.
+
+
+###Eindopdracht
+
+Webapp Score App voor een sport toernooi.
+Met een team van meerdere developers op een gestructureerde manier aan een webapp werken. 
+Denk aan code organiseren, versie controle van je app, bugtracking en commenting. 
+
+Werken toevoegen aan Github - Social Coding
+Werken in teams
 
 
 
 
-##5. Terugkijken - 5 minuten (200/200)
+
+
+##5. Terugkijken - 10 minuten (200/200)
 **Materiaal** Intranet
 **Opstelling** - 
 
-Lesdoelen: Wat hebben we behandeld?
+**Lesdoelen: Wat hebben we behandeld?**
 
-Werkwijze en planning van het vak
+* Werkwijze, leerdoelen en planning van het vak bespreken > Is dit vak voor jou? Kom met mij praten als je twijfelt.
+* Wat is een Frontend developer? > Aan de slag met Weekly Nerd, wie o wie?
+	30 studenten in 6 weken 30/6=redactiegroepen van 5 
+	Volgende week eerste groep de blog post bespreken met studentassistenten voor lesweek 3
+	
+	Eindredactie 1.1
+	Stefan Kuijers
+	Sjoerd van Gestel
+	Tara de Ruijter
+	Pim Plaatsman
+	Rowdy Boon
 
-Huiswerk aankondigen
+	Eindredactie 2.1 ?
+	Marvin van het Zand, Tjerk Smit, Nico B, Chris Snoeks, Ron Geertsma
+	
+	
+* Wat is HTML5 ook alweer? > html5rocks slides overzicht
+* Leren denken in Objecten > Introductie en Beginnen met object georiënteerd programmeren in Javascript > Codecadamy
+
+
+**Werkwijze en planning van het vak**
+In les 1 en 2 leer je Object Oriented programming in JavaScript.  Dat betekent een script kunnen maken gebaseerd op objecten. Eindopdracht les 2: Functie van CMD Aan omzetten naar een script gebaseerd op objecten.
+Welk stappen moet je hiervoor ondernemen? Dat zijn de lesopdrachten les 1 & 2
+
+Waarom? Om vanaf les 3 aan de slag te kunnen met MVC. 
+
+MVC is een ontwerp patroon voor je code. Door het opsplitsen van functionaliteiten van je code in verschillende objecten en classes wordt je code modulair, het bevordert de leesbaarheid en herbruikbaarheid.
+Dit is een belangrijk onderdeel van de lessenreeks. Met een team van meerdere developers op een gestructureerde manier aan een webapp werken. Denk aan code organiseren, versie controle van je app, bugtracking en commenting. Code hergebruiken. Modulair opbouwen van je scripts. Uiteindelijk is het makkelijker en leuker.
+
+
+
+
+**Huiswerk aankondigen**
+Zie intranet lesweek 2
+
+Mensen die niet het huiswerk hebben gedaan lopen hier tegen de lamp. Die studenten moeten volgende week alles lezen + Intro lessen Codeacademy
+
+
+
 
 
 
