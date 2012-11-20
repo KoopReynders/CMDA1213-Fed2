@@ -39,15 +39,19 @@ Joost Faber j.faber@hva.nl
 **Materiaal:** -
 **Opstelling:** klas in 2 groepen? 2 grote eilanden
 
+**Weekly Nerd blog over de toekomst van webdevelopment**
 
-*[We've had] a total of 880 million Android & iOS devices entering the market in just over five years. Consider the shift that occurs when iOS & Android put a combined billion [mobile] devices in people’s hands. That’s almost half the Internet population of the world and equivalent to the total number of (Windows) PCs in use around the world. Mobile first yet?*
-	- Luke Wroblewski
-- Links toevoegen over dit onderwerp
+[Is JavaScript de toekomst van Frontend development?](http://mashable.com/2012/11/12/javascript/) Waarom is in deze lessenreeks gekozen voor JavaScript? 
+In het artikel staat: "JavaScript is the programming language that makes a website interactive"
+In de commentaren is te lezen: "JavaScript, so it’s not just a web scripting language"
+Dit in realtie met het artikel [Concept to Code : Code literacy in UX](http://uxmag.com/articles/concept-to-code)
 
+[Toepassingen van de HTML5 api's](http://mashable.com/tag/future-web-series/). "HTML5 is no longer just a buzz word. It — along with JavaScript and CSS3 — is quickly helping reshape perceptions of what a web browser and web standards can achieve"
+Wat zie je nog meer?
 
-Volgende week over de toekomst van webdevelopment
-http://mashable.com/2012/11/12/javascript/
-http://mashable.com/tag/future-web-series/
+**Volgende week**
+Onderwerp van de Weekly Nerd voor volgende week bespreken. 
+Redactieteam 1.2 en 2.2 samenstellen.
 
 
 ##4. Werkopdrachten - 150 minuten (195/200)
