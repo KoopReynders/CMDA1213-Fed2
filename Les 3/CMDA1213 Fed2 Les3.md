@@ -12,43 +12,18 @@ Koop Reynders k.g.reynders@hva.nl
 Joost Faber j.faber@hva.nl
 
 ###Lesdoelen
+1. Introductie MVC
+2. Wat is Frontend development?
+3. Werken met Javascript MVC Backbone
+
 
 ###Programma (200 minuten)
 
 1. Huishoudelijke mededelingen (10) 
-2. College (30)
+2. College (20)
 3. Weekly Nerd (30) 
 4. Werkopdrachten (120)
 5. Terugkijken (10) 
-
-
-		Les 3: College over MVC
-			Voordelen van MVC
-			Nadelen van MVC, bv bedrijven die hier vastzitten
-		Les 3: Werkopdrachten: Kennismaken met MVC
-		
-		Les 3 & 4: Vanaf hier werken aan de eindodpracht
-			Skeleton neerzetten voor de eindopdracht
-				Focus op Model? Of Controler? Routing?
-				Data binnenhalen met de API
-				 - Scores posten
-				 - Wedstrijden/schedule laten zien
-				 - Ranglijsten laten zien
-
-				Local storage?
-
-			vanaf les 5 > Views/Templates
-				Progressive enhancement? Gracefull degredation
-				Crossbrowser?
-				CSS, object georienteerd?
-			Les 5 Waar gaat de deeltoets over? MVC Skeleton. 
-				Hoe laten zien
-				Toetsen wat we behandelen in les 3 en 4
-			
-		Werken in Teams > 
-		Hoe werken met Github ?
-
-	 
 		
 		
 
@@ -57,19 +32,39 @@ Joost Faber j.faber@hva.nl
 **Opstelling:** College opstelling
 
 
-##2. College - 30 minuten (40/200)
+##2. College - 20 minuten (30/200)
 **Materiaal:** Papier en pen voor aantekeningen
 **Opstelling:** Rijen, college opstelling
 
+College over MVC / Frameworks
 
-##3. De Weekly Nerd - 30 minuten (70/200)
+- Voordelen
+- Nadelen, denk aan bedrijven en keuzes voor een framework
+Ingaan op Backbone? Beter is dit bij de werkopdrachten te doen en hier een meer algemeen verhaal te houden. Dit moet bijdragen aan strategische keuzes die de (technische) studenten moeten kunnen maken aangaande teamwerk, workflow, techniek in het bedrijfsleven
+- Versie beheer, bugtracking > Github
+
+
+
+##3. De Weekly Nerd - 30 minuten (60/200)
 **Materiaal:** -
 **Opstelling:** klas in 2 groepen? 2 grote eilanden
 
 
-##4. Werkopdrachten - 120 minuten (190/200)
+##4. Werkopdrachten - 130 minuten (190/200)
 **Materiaal** Laptop en internet
 **Opstelling** Werkeilanden waar twee duo’s aan kunnen zitten
+
+Werkopdrachten: Kennismaken met MVC
+Op basis van Backbone
+Werken aan het skeleton van de eindopdracht
+
+Werken in teams
+Hoe werken in Github > in de les aanmaken
+eisen en criteria duidelijk maken mbt. Github en de eindopdracht
+Wat willen we zien?
+Wat gaan we volgen?
+
+
 
 
 
