@@ -111,7 +111,7 @@ Wat gaan we deze lessen reeks behandelen?
 **Opstelling:** klas in 2 groepen? 2 grote eilanden
 
 De Frontend developer wie is dat?
-[Intranet Beroepsrol Frontend developer](http://intra.iam.hva.nl/algemeen/beroepsrollen/front_end-developper)
+[Intranet Beroepsrol Frontend developer](http://intra.iam.hva.nl/content/algemeen/beroepsrollen/frontend_developer/)
 
 De scope van de Frontend developer?
 [Fronteers](http://fronteers.nl) en [Fronteers bijeenkomsten](http://fronteers.nl/bijeenkomsten "Oriënteer je op de beroepsrol Frontend developer")
