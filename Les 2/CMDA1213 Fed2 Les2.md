@@ -51,7 +51,7 @@ Wat zie je nog meer?
 
 **Volgende week**
 Onderwerp van de Weekly Nerd voor volgende week bespreken. 
-Redactieteam 1.2 en 2.2 samenstellen.
+Redactieteam 1.2 en 2.2 samenstellen. Deze teams pushen naar MVC artikelen: [TodoMVC - Helping you select an MV* Framework](http://addyosmani.github.com/todomvc/)
 
 
 ##4. Werkopdrachten - 150 minuten (195/200)
@@ -66,7 +66,7 @@ les 1 was leren denken in objecten
 
 Eindopdracht les 2: Functie van CMD Aan omzetten naar een script gebaseerd op objecten.
 
-Welk stappen moet je hiervoor ondernemen? Dat zijn de lesopdrachten les 1 & 2
+Welk stappen moet je hiervoor ondernemen? Dat zijn de lesopdrachten les 2
 
 
 ###Les 2: Object Geörienteerd Programeren
@@ -74,7 +74,7 @@ Welk stappen moet je hiervoor ondernemen? Dat zijn de lesopdrachten les 1 & 2
 - Mini college over ...
 - Codecadamy: Introduction to Objects II - Closer look at Objects
 	- Over Classes en Prototype
-	- Inheritance
+	- Inheritance / Overerving
 	- Public, private and methods
 - Omzetten van een aantal functies naar een script gebaseerd op objecten
 	- Functie samen lezen
@@ -86,6 +86,7 @@ Outro
 - Vooruit kijken
  	- Volgende week: MVC 
 	- huiswerk
+
 
 Events? In de cursussen op Codecademy staat dit nog niet in de introductie lessen. Misschien kunnen we het doorschuiven naar MVC in les 3?
 Nog iets anders dat van belang is om script met objecten te maken? Voordat we die opdracht kunnen laten maken?
@@ -101,6 +102,7 @@ Lesdoelen: Wat hebben we behandeld?
 Werkwijze en planning van het vak
 
 Huiswerk aankondigen
+	Code School: Backbone cursus (hoe lang duurt deze?)
 
 
 
