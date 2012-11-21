@@ -72,6 +72,16 @@ Het lesprogramma bestaat uit 9 lessen inclusief de eindtoets in lesweek 9.
 - Les 9: / Eindtoets (formatief)
 
 
+	
+Wanneer vertellen over Meteor? En/of advanced framworkers?
+	Misschien Redactiegroep? Mooi als refelctie opdracht
+	nadat studenten wat ervaring hebben opgedaan met MVC
+	
+Wanneer relecteren op het beroep Frontend developer?	Misschie de klas ook de vraag voorleggen wat deze moet leren?
+	Vasilis van Gemert uitnodigen?
+
+
+
 		Les 3: College over MVC
 			Voordelen van MVC
 			Nadelen van MVC, bv bedrijven die hier vastzitten
@@ -81,7 +91,9 @@ Het lesprogramma bestaat uit 9 lessen inclusief de eindtoets in lesweek 9.
 		Hoe werken met Github ?
 		
 		Elkaar beoordelen in Github, oefenen deeltoets 1?
-		Studenten moeten elkaar beoordelen op de code
+		Studenten moeten elkaar beoordelen op de code. 
+		Rubrik ontwikkelen.
+		JE krijgt zelf een cijfer als je iemand ander hebt beoordeeld.
 		https://class.coursera.org/interactivepython-2012-001/human_grading/view?assessment_id=11
 		
 		
@@ -89,9 +101,9 @@ Het lesprogramma bestaat uit 9 lessen inclusief de eindtoets in lesweek 9.
 			Skeleton neerzetten voor de eindopdracht
 				Focus op Model? Of Controler? Routing?
 				Data binnenhalen met de API
-				 - Scores posten
-				 - Wedstrijden/schedule laten zien
-				 - Ranglijsten laten zien
+				 - Games-model: Wedstrijd laten zien (met scores posten) 
+				 - Schedule-model: Schedule laten zien, rondes en volgende rondes 
+				 - Ranking-model: Ranglijsten & Pools laten zien 
 
 				Local storage?
 
@@ -102,6 +114,9 @@ Het lesprogramma bestaat uit 9 lessen inclusief de eindtoets in lesweek 9.
 			Les 5 Waar gaat de deeltoets over? MVC Skeleton. 
 				Hoe laten zien
 				Toetsen wat we behandelen in les 3 en 4
+				
+			Les 6,7 Interface en interactie
+				Mobile interaction patronen
 
 
 ##Toetsing
@@ -130,7 +145,7 @@ Hoe de leerdoelen worden getoetst
 	- Werken met Github
 	- Versies bijhouden met comments
 	- Logboek
-	* Elkaar code beoordelen
+	* Elkaars code beoordelen
 	
 
 
