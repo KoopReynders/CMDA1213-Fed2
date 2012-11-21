@@ -54,7 +54,7 @@ Hier een meer algemeen verhaal te houden. Dit moet bijdragen aan strategische ke
 
 ##4. Werkopdrachten - 130 minuten (190/200)
 **Materiaal** Laptop en internet
-**Opstelling** Werkeilanden waar twee duo’s aan kunnen zitten
+**Opstelling** Werkeilanden voor team van 3
 
 Werkopdrachten: Backbone neerzetten en Repo aanmaken met het team van 3 personen (20 minuten)
 
