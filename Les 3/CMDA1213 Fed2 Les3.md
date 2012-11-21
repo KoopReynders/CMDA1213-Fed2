@@ -36,11 +36,11 @@ Joost Faber j.faber@hva.nl
 **Materiaal:** Papier en pen voor aantekeningen
 **Opstelling:** Rijen, college opstelling
 
-College over MVC / Frameworks
+Bedrijfsstrategieën voor de Lead developer:
 
-- Voordelen
-- Nadelen, denk aan bedrijven en keuzes voor een framework
-Ingaan op Backbone? Beter is dit bij de werkopdrachten te doen en hier een meer algemeen verhaal te houden. Dit moet bijdragen aan strategische keuzes die de (technische) studenten moeten kunnen maken aangaande teamwerk, workflow, techniek in het bedrijfsleven
+- Voordelen Frameworks/MVC
+- Nadelen Framworks/MVC, denk aan bedrijven en keuzes voor een framework.
+Hier een meer algemeen verhaal te houden. Dit moet bijdragen aan strategische keuzes die de (technische) studenten moeten kunnen maken aangaande teamwerk, workflow, techniek in het bedrijfsleven
 - Versie beheer, bugtracking > Github
 
 
@@ -50,20 +50,30 @@ Ingaan op Backbone? Beter is dit bij de werkopdrachten te doen en hier een meer 
 **Opstelling:** klas in 2 groepen? 2 grote eilanden
 
 
+
+
 ##4. Werkopdrachten - 130 minuten (190/200)
 **Materiaal** Laptop en internet
 **Opstelling** Werkeilanden waar twee duo’s aan kunnen zitten
 
-Werkopdrachten: Kennismaken met MVC
-Op basis van Backbone
-Werken aan het skeleton van de eindopdracht
+Werkopdrachten: Backbone neerzetten en Repo aanmaken met het team van 3 personen (20 minuten)
 
-Werken in teams
-Hoe werken in Github > in de les aanmaken
+Werken in Teams
+Hoe werken in Github > in de les aanmaken van de Repo
 eisen en criteria duidelijk maken mbt. Github en de eindopdracht
 Wat willen we zien?
 Wat gaan we volgen?
 
+Minicollege over MVC in Backbone (zoals de code school cursus)
+Waar bestaat de eindopdracht uit:
+	Schedule (model&view
+	Games (model&view)
+	Ranking (model&view)
+Werken aan het skeleton van de eindopdracht
+	- Inheritance / Overerving komt aan bod, daar hebben we ook mee geoefend in les 2
+
+Werken met Doco
+	Dit ook gebruiken om elkaars code te beoordelen
 
 
 
