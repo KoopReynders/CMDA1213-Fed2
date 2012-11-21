@@ -87,7 +87,6 @@ Outro
  	- Volgende week: MVC 
 	- huiswerk
 
-
 Events? In de cursussen op Codecademy staat dit nog niet in de introductie lessen. Misschien kunnen we het doorschuiven naar MVC in les 3?
 Nog iets anders dat van belang is om script met objecten te maken? Voordat we die opdracht kunnen laten maken?
 
