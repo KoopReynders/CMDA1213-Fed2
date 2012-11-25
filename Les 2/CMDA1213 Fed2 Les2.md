@@ -12,12 +12,10 @@ Koop Reynders k.g.reynders@hva.nl
 Joost Faber j.faber@hva.nl
 
 ###Lesdoelen
-
 * Wat is een Frontend developer?
 * Object georiënteerd programmeren in Javascript
 
 ###Programma (200 minuten)
-
 1. Huishoudelijke mededelingen (10) 
 2. College (0)
 3. Weekly Nerd (30) 
@@ -28,6 +26,23 @@ Joost Faber j.faber@hva.nl
 ##1. Huishoudelijke mededelingen - 10 minuten (10/200)
 **Materiaal:** - 
 **Opstelling:** College opstelling
+
+Via intranet naar de les van vandaag.
+Wat gaan we vandaag doen?
+
+Kledingvoorschriften (wat staat er op dit shirt?)
+
+In les 1 en 2 leer je Object georiënteerd programmeren in Javascript.  Dat betekent een script kunnen maken gebaseerd op objecten.
+Waarom? Om vanaf les 3 aan de slag te kunnen met MVC. Wat moeten studenten kunnen om MVC in les 3 te begrijpen? 
+
+les 1 was leren denken in objecten
+Les 2 Eindopdracht: Functie van CMD Aan omzetten naar een script gebaseerd op objecten.
+Les 3 Introductie naar MVC
+
+Hoe ging het met het huiswerk en voorbereidende leeswerk Elequent JavaScript?
+Wie heeft Codecadamy thuis gedaan? Ging dat goed?
+
+Lesdoelen en programma van vandaag doorspreken.
 
 
 ##2. College - 0 minuten (10/200)
@@ -41,13 +56,38 @@ Joost Faber j.faber@hva.nl
 
 **Weekly Nerd blog over de toekomst van webdevelopment**
 
-[Is JavaScript de toekomst van Frontend development?](http://mashable.com/2012/11/12/javascript/) Waarom is in deze lessenreeks gekozen voor JavaScript? 
-In het artikel staat: "JavaScript is the programming language that makes a website interactive"
-In de commentaren is te lezen: "JavaScript, so it’s not just a web scripting language"
-Dit in realtie met het artikel [Concept to Code : Code literacy in UX](http://uxmag.com/articles/concept-to-code)
+**[Concept to Code : Code literacy in UX](http://uxmag.com/articles/concept-to-code)**
+Waar ging dit ook alweer over?
+Code literacy: the ability to identify, understand, interpret, create, communicate, and use rules that shape and reshape information in order to participate fully in the creation of new information == UX professionals
+How Literate Should We Be?
+not all of us need to master visual design === not all of us need to master code
+We should also take care to understand the principles of code
+- The enthusiast
+- The mash-up artist
+- The inventor
+- The wizard
+Ways to Start Thinking About Code
+- Code as pattern
+- Code as material
+- Code as narrative
+- Code as play
 
-[Toepassingen van de HTML5 api's](http://mashable.com/tag/future-web-series/). "HTML5 is no longer just a buzz word. It — along with JavaScript and CSS3 — is quickly helping reshape perceptions of what a web browser and web standards can achieve"
+Code as pattern / Code as material:
+**[Is JavaScript de toekomst van Frontend development?](http://mashable.com/2012/11/12/javascript/)** Waarom is in deze lessenreeks gekozen voor JavaScript? 
+In het artikel staat: "JavaScript is the programming language that makes a website interactive"
+en "JavaScript is the only client-side scripting language"
+en "JavaScript Runs in a browser, you don’t need to download software to use it"
+
+In de commentaren is te lezen: "JavaScript, so it’s not just a web scripting language"
+Maar ook "I don’t even understand how we came to this. Javascript is a primitive combination of functional, procedural and object orientated programming, while doing all of those BADLY. Why can’t we just use C# or Java for client side?"
+
+Lees dan ook dit artikel over [**the Next Big Language**](http://steve-yegge.blogspot.nl/2007/02/next-big-language.html) van Steve Yegge. Een paar jaar geleden schreef hij een blogpost over NBL, de volgende (web) programeer taal, en waarom dit de nieuwe taal hét zal gaan worden. Hij noemt nergens dat het JavaScript was waar hij over schreef. Een paar jaar later heeft hij dat toegegeven.
+
+Klik door naar: [How JavaScript & HTML5 Are Remaking the Web](http://mashable.com/2011/03/17/javascript-html5/)
+ "HTML5 is no longer just a buzz word. It — along with JavaScript and CSS3 — is quickly helping reshape perceptions of what a web browser and web standards can achieve"
 Wat zie je nog meer?
+
+
 
 **Volgende week**
 Onderwerp van de Weekly Nerd voor volgende week bespreken. 
@@ -96,12 +136,22 @@ Nog iets anders dat van belang is om script met objecten te maken? Voordat we di
 **Materiaal** Intranet
 **Opstelling** - 
 
-Lesdoelen: Wat hebben we behandeld? 
+**Lesdoelen**: Wat hebben we vanaag behandeld? 
 
-Werkwijze en planning van het vak
+**Werkwijze en planning** van het vak
+	Introductuie naar MVC voor het huiswerk
 
-Huiswerk aankondigen
-	Code School: Backbone cursus (hoe lang duurt deze?)
+**Huiswerk aankondigen**
+	
+- Bekijk eerst deze video [Nailing the Interactions on Pageless Apps](http://vimeo.com/22685608) ()half uur)
+- Doe dan level 1 van [Codeschool: the anatomy of Backbone.js](http://www.codeschool.com/courses/anatomy-of-backbonejs) (één uur)
+- Bekijk daarna deze [slideshow presentatie over Backbone](http://backbone-dot-js-intro.heroku.com) (half uur)
+- Tot slot kun je [de code](http://backbonejs.org/docs/todos.html#section-16) bekijken van deze eenvoudige [todo app](http://documentcloud.github.com/backbone/examples/todos/index.html). Die moet je dan begrijpen.
+
+Extra informatie nodig? Voor deze les kun je ook nog deze hoofdstukken lezen uit het boek: [O'Reilly JavaScript Web Applications](http://shop.oreilly.com/product/0636920018421.do) (Dit boek kun je online kopen voor 28 euro).
+Hoofdstuk 1 Over MVC
+Hoofdstuk 12 The Backbone Library
+
 
 
 
