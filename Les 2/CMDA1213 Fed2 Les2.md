@@ -154,7 +154,7 @@ Tijens de artikel bespreking werd genoemd
 
 **Huiswerk aankondigen**
 
-Leren denken in Objecten: Lesopdracht IcanHasGEo verder uitwerken.
+Leren denken in Objecten: Lesopdracht IcanHasGeo verder uitwerken.
 
 	IcanHasGeo function(){
 		//Object literal of Constructor? Object literal: we hebben maar 1 object nodig en geen instances. 

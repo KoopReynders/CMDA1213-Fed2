@@ -66,6 +66,8 @@ Wat gaan we volgen?
 
 **Opdrachten**
 
+[Tutsplus](http://net.tutsplus.com/?s=backbone)
+
 Minicollege over MVC in Backbone (zoals de code school cursus)
 
 Breakdown van de Score Werbapp maken
@@ -94,6 +96,8 @@ Lesdoelen: Wat hebben we behandeld?
 Werkwijze en planning van het vak
 
 Huiswerk aankondigen
+
+http://net.tutsplus.com/?s=backbone
 
 
 
