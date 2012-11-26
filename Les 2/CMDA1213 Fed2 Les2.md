@@ -2,7 +2,7 @@ CMDA201213-Fed2 Les 2
 =====================
 
 #Les 2: I'm an Object
-**Javascript: Leren denken in objecten**
+**Javascript: Leren denken in objecten / OOP**
 
 Ter voorbereiding op het werken met een MVC framework (les 3) leer je gestructureerd werken met behulp van JavaScript. In deze les gaan we verder met de principes van Object Oriented Programming. De les eindigt met het omzetten van een aantal functies naar een script gebaseerd op objecten.
 
