@@ -138,12 +138,59 @@ Nog iets anders dat van belang is om script met objecten te maken? Voordat we di
 
 **Lesdoelen**: Wat hebben we vanaag behandeld? 
 
+- Wat is een frontend developer? > Weekly Nerd
+	- Artikelen bespreking op Weekly Nerd ging over Waarom moet een UX designer code kennen en Is javaScript de toekomst van FeD.
+	- Lees ook dit artikel over [**the Next Big Language**](http://steve-yegge.blogspot.nl/2007/02/next-big-language.html) van Steve Yegge. Een paar jaar geleden schreef hij een blogpost over NBL, de volgende (web) programeer taal, en waarom dit de nieuwe taal hét zal gaan worden. Hij noemt nergens dat het JavaScript was waar hij over schreef. Een paar jaar later heeft hij dat toegegeven.
+Tijens de artikel bespreking werd genoemd
+	- Volg [Douglas Crockford](http://www.yuiblog.com/crockford/). Uber nerd van Yahoo. 
+- Voor de redactieteams: Post je post op [Weekleynerd.tumblr.com/submit](http://weeklynerd.tumblr.com/submit)
+- Weekley Nerd, je mag niet meer dan 1 keer missen. (namen noemen van studenten die nu op -1 staan)
+
+
+
+
 **Werkwijze en planning** van het vak
-	Introductuie naar MVC voor het huiswerk
+	Introductie naar MVC voor het huiswerk
 
 **Huiswerk aankondigen**
+
+Leren denken in Objecten: Lesopdracht IcanHasGEo verder uitwerken.
+
+	IcanHasGeo function(){
+		//Object literal of Constructor? Object literal: we hebben maar 1 object nodig en geen instances. 
+		var app = {
+			init:function(){
+				//deze runt vanzelf als je app() aanroept
+			
+			}
+		};
+		var variables =""; //declareer variabelen in App functie
+
+		//Location Object
+		var location = {
+		
+		};
+
+		//Google Maps object
+		var maps(){};
+
+			};
+			
+		//Debugger object
+		var debugger(){
+
+			};
+
+		//Run app
+		$(function () {
+			app();	
+		});
+	};
+
+
+Wat is MVC?
 	
-- Bekijk eerst deze video [Nailing the Interactions on Pageless Apps](http://vimeo.com/22685608) ()half uur)
+- Bekijk eerst deze video [Nailing the Interactions on Pageless Apps](http://vimeo.com/22685608) (half uur)
 - Doe dan level 1 van [Codeschool: the anatomy of Backbone.js](http://www.codeschool.com/courses/anatomy-of-backbonejs) (één uur)
 - Bekijk daarna deze [slideshow presentatie over Backbone](http://backbone-dot-js-intro.heroku.com) (half uur)
 - Tot slot kun je [de code](http://backbonejs.org/docs/todos.html#section-16) bekijken van deze eenvoudige [todo app](http://documentcloud.github.com/backbone/examples/todos/index.html). Die moet je dan begrijpen.
@@ -151,6 +198,10 @@ Nog iets anders dat van belang is om script met objecten te maken? Voordat we di
 Extra informatie nodig? Voor deze les kun je ook nog deze hoofdstukken lezen uit het boek: [O'Reilly JavaScript Web Applications](http://shop.oreilly.com/product/0636920018421.do) (Dit boek kun je online kopen voor 28 euro).
 Hoofdstuk 1 Over MVC
 Hoofdstuk 12 The Backbone Library
+
+Meer leren over JavaScript?
+Kijk ook eens bij de JavaScript Cursussen [Lynda.com](http://www.lynda.com/JavaScript-training-tutorials/244-0.html)
+
 
 
 

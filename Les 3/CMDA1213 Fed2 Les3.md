@@ -58,21 +58,28 @@ Hier een meer algemeen verhaal te houden. Dit moet bijdragen aan strategische ke
 
 Werkopdrachten: Backbone neerzetten en Repo aanmaken met het team van 3 personen (20 minuten)
 
-Werken in Teams
+**Werken in Teams**
 Hoe werken in Github > in de les aanmaken van de Repo
 eisen en criteria duidelijk maken mbt. Github en de eindopdracht
 Wat willen we zien?
 Wat gaan we volgen?
 
+**Opdrachten**
+
 Minicollege over MVC in Backbone (zoals de code school cursus)
+
+Breakdown van de Score Werbapp maken
+Breakdown van de 3 objecten
 Waar bestaat de eindopdracht uit:
-	Schedule (model&view
+	Schedule (model&view)
 	Games (model&view)
 	Ranking (model&view)
+
 Werken aan het skeleton van de eindopdracht
 	- Inheritance / Overerving komt aan bod, daar hebben we ook mee geoefend in les 2
 
-Werken met Doco
+
+**Werken met Doco**
 	Dit ook gebruiken om elkaars code te beoordelen
 
 

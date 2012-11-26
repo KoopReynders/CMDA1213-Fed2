@@ -24,7 +24,9 @@ Joost Faber j.faber@hva.nl
 3. Weekly Nerd (30) 
 4. Werkopdrachten (150)
 5. Terugkijken (10) 
+6. Tussentijdse feedback (10)
 		
+
 		
 
 ##1. Huishoudelijke mededelingen - 10 minuten (10/200)
@@ -64,6 +66,12 @@ Lesdoelen: Wat hebben we behandeld?
 Werkwijze en planning van het vak
 
 Huiswerk aankondigen
+
+##6. Feedback
+**Materiaal** Stickies aantal kleuren
+**Opstelling** - 
+
+Vragen over lesstructuur, huiswerk, tips-ter-verbetering
 
 
 
