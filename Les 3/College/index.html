@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Front-End Development V2 Hoorcollege week 1</title>
+	<meta name="description" content="" />
+	<meta name="author" content="Joost Faber" />
+	<link href="static/css/style.css" rel="stylesheet" />
+	
+</head>
+<body class="impress-not-supported">
+
+	<section class="fallback-message">
+		<p>Jouw browser ondersteund bepaalde zaken in impress.js niet dus je krijgt een vereenvoudigde versie van de presentatie te zien.</p>
+		<p>Om deze presentatie te zien zoals hij bedoeld is gebruik je de laatste versie van <b>Chrome</b>, <b>Safari</b> of <b>Firefox</b>.</p>
+	</section>
+
+	<section id="impress" data-transition-duration="1000">
+	<!-- All the possible attributes used to position presentation steps, are:
+	* `data-x`, `data-y`, `data-z` - they define the position of **the center** of step element on the canvas in pixels; their default value is 0;
+	* `data-rotate-x`, `data-rotate-y`, 'data-rotate-z`, `data-rotate` - they define the rotation of the element around given axis in degrees; their default value is 0; `data-rotate` and `data-rotate-z` are exactly the same;
+	* `data-scale` - defines the scale of step element; default value is 1
+	-->
+
+<!-- INTRO -->
+		
+		<section id="mvc" class="step slide" data-x="1000" data-y="-1000" data-rotate-x="0">
+			<article>
+				<h1>Frontend Development V2 </h1>
+				<h2>MVC</h2>
+				<ul>
+					<li>Design pattern used for structuring applications</li>
+					<li>Model-View-Controller, means separation of concerns</li>
+					<li>Business data, User Interface, Manage logic &amp; user input &amp; coördination of models/views
+					<li>Designed by Trygve Reenskaug 1979, popularized by GoF book in 1994</li>
+					<li>With a design pattern like MVC spaghetti code can be avoided</li>
+				</ul>
+			</article>
+		</section>
+		
+		<section id="mvc-summary" class="step slide" data-x="3000" data-y="-1000" data-rotate-x="100">
+			<article>
+				<h1>Frontend Development V2 </h1>
+				<h2>MVC</h2>
+				<blockquote>
+					"Set of classes to build a user interface (GoF)"
+				</blockquote>
+			</article>
+		</section>
+		
+		<section id="mvc-advantages" class="step slide" data-x="5000" data-y="-1000" data-rotate-x="200">
+			<article>
+				<h1>Frontend Development V2 </h1>
+				<h2>MVC advantages</h2>
+				<ul>
+					<li>Easier overall <span class="highlight">maintenance</span>. When updates need to be made to the application it is clear whether the changes are data-centric or merely visual.</li>
+					<li>Decoupling models and views means that it’s straight-forward to write <span class="highlight">unit tests</span> for business logic</li>
+					<li><span class="highlight">Duplication</span> of low-level model and controller code is <span class="highlight">eliminated</span> across the application</li>
+					<li>Depending on the size of the application and separation of roles, this modularity allows developers responsible for core logic and <span class="highlight">developers</span> working on the user-interfaces to <span class="highlight">work simultaneously</span></li>
+				</ul>
+			</article>
+		</section>
+		
+		<section id="mvc-disadvantages" class="step slide" data-x="7000" data-y="-1000" data-rotate-x="300">
+			<article>
+				<h1>Frontend Development V2 </h1>
+				<h2>MVC disadvantages</h2>
+
+			</article>
+		</section>
+		
+		<section id="backbone" class="step slide" data-x="9000" data-y="-1000" data-rotate-x="400">
+			<article>
+				<h1>Frontend Development V2 </h1>
+				<h2>Backbone</h2>
+	
+				<p>Backbone doesn’t fit either MVC perfectly. Instead, it borrows some of the best concepts from multiple architectural patterns and creates a <span class="highlight">flexible framework</span> that just works well. Call it the Backbone way, MV* or whatever helps reference its flavor of application architecture.</p>
+			</article>
+		</section>
+		
+		<section id="backbone-facts" class="step slide" data-x="11000" data-y="-1000" data-rotate-x="500">
+			<article>
+				<h1>Frontend Development V2 </h1>
+				<h2>Backbone Facts</h2>
+				<ul>
+					<li>Core components: <span class="highlight">Model</span>, <span class="highlight">View</span>, <span class="highlight">Collection</span>, <span class="highlight">Router</span>. Enforces its own flavor of MV*</li>
+					<li>Good <span class="highlight">documentation</span>, with more improvements on the way</li>
+					<li>Used by <span class="highlight">large companies</span> such as SoundCloud and Foursquare to build non-trivial applications</li>
+					<li><span class="highlight">Event-driven</span> communication between views and models.</li>
+					<li>Great support for <span class="highlight">RESTful interfaces</span> out of the box, so models can be easily tied to a backend</li>
+					<li>Clear and flexible conventions for <br /><span class="highlight">structuring applications</span>.</li>
+				</ul>
+			</article>
+		</section>
+		
+	</section>
+
+
+<!-- Impress is gemaakt door Bartek Szopka	- http://bartaz.github.com/impress.js/#/bored	-->
+<script type="text/javascript" src="static/js/impress.js"></script>
+<script>impress().init();</script>
+<script type="text/javascript" src="static/js/cmdfuncties.js"></script>
+
+<script src="static/js/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="static/js/nebula.js" type="text/javascript"></script>
+
+</body>
+</html>
