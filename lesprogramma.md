@@ -28,24 +28,28 @@ Koop Reynders k.g.reynders@hva.nl
 
 ##Leerdoelen
 
-###Toetsmatrijs
-Hoe verhouden de competenties zich tot de opgestelde leerdoelen
-
 ##Relatie eindtermen van de opleiding en beroepsprofiel
 
 
 #Doceer- en leeractiviteiten
-
-##Toetsvormen en feedbackprocedure
-
-
-##Integratie leerdoelen, toetsen en leeractiveiten
 
 ##lesopbouw
 Didaktische ordening en strategie
 Van een les. Volgorde van onderdelen. 
 Welke materialen zijn nodig?
 Opstelling van het lokaal.
+
+
+##Toetsplan
+
+###Toetsmatrijs
+Hoe verhouden de competenties zich tot de opgestelde leerdoelen
+
+###Toetsvormen en feedbackprocedure
+
+
+###Integratie leerdoelen, toetsen en leeractiveiten
+
 
 
 ##Lesprogramma
@@ -57,7 +61,7 @@ Het lesprogramma bestaat uit 9 lessen inclusief de eindtoets in lesweek 9.
 
 - Les 2: I'm an Object - OOP
 
-- Les 3: Fork me - Gestructureerd programeren: Introduktie MVC 
+- Les 3: Fork me - Introduktie MVC 
 
 - Les 4: - MVC Server vs. Client data
 
@@ -93,17 +97,28 @@ Wanneer relecteren op het beroep Frontend developer?	Misschie de klas ook de vra
 		Elkaar beoordelen in Github, oefenen deeltoets 1?
 		Studenten moeten elkaar beoordelen op de code. 
 		Rubrik ontwikkelen.
-		JE krijgt zelf een cijfer als je iemand ander hebt beoordeeld.
+		Je krijgt zelf een cijfer als je iemand ander hebt beoordeeld.
 		https://class.coursera.org/interactivepython-2012-001/human_grading/view?assessment_id=11
 		
 		
-		Les 3 & 4: Vanaf hier werken aan de eindopdracht
+		Les 3 & 4 & 5: Vanaf hier werken aan de eindopdracht
+
 			Skeleton neerzetten voor de eindopdracht
+		
+			[Breakdown Webapp] 3 pagina's
+				 - Games: Wedstrijd laten zien (+met scores posten) 
+				 - Schedule: Schedule laten zien, rondes en volgende rondes (+auto-updates op schedule inbouwen)
+				 - Ranking: Ranglijsten & Pools laten zien (+met timeline?)
+			
+			Studenten worden individueel beoordeelt 
+			ze gaan alledrie 1 van de 3 functionaliteiten maken
+			ze maken een apparte pagina met eingen backbone scripts.
+
+			Wat moet in deze 3 pagina's			
 				Focus op Model? Of Controler? Routing?
-				Data binnenhalen met de API
-				 - Games-model: Wedstrijd laten zien (met scores posten) 
-				 - Schedule-model: Schedule laten zien, rondes en volgende rondes 
-				 - Ranking-model: Ranglijsten & Pools laten zien 
+				Data binnenhalen met de API?
+				
+
 
 				Local storage?
 
@@ -115,13 +130,13 @@ Wanneer relecteren op het beroep Frontend developer?	Misschie de klas ook de vra
 				Hoe laten zien
 				Toetsen wat we behandelen in les 3 en 4
 				
-			Les 6,7 Interface en interactie
+				
+			Les 6,7 Routing in Backbone, interface en interactie
+				Vanaf hier Routing functionaliteit en interface + interactie
 				Mobile interaction patronen
+					1 page app maken met 1 index.html
 
 
-##Toetsing
-
-Hoe de leerdoelen worden getoetst
 
 
 ###Eindopdracht
@@ -147,6 +162,9 @@ Hoe de leerdoelen worden getoetst
 	- Logboek
 	* Elkaars code beoordelen
 	
+
+	Threesome Ultimate Tournament - http://www.playwithlv.com/tournaments/18334/threesome/
+		
 
 
 ###Weekly Nerd
