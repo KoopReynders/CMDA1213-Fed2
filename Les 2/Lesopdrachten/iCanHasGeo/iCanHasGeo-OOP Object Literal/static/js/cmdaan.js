@@ -1,4 +1,4 @@
-(function ($) {
+(function () {
 	var SANDBOX = "SANDBOX",
 		LINEAIR = "LINEAIR",
 		GPS_AVAILABLE = 'GPS_AVAILABLE',
@@ -184,4 +184,4 @@
 		application.init();	
 	});
 
-})(jQuery);
+})();

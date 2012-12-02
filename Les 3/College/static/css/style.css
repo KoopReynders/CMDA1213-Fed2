@@ -391,3 +391,10 @@ blockquote {
 	font-style:italic;
 	margin:100px;
 }
+/* Explanation */
+.impress-enabled .explanation {
+	opacity:0;
+}
+.impress-enabled #mvc-html-explanation.active {
+	display:block;
+}
