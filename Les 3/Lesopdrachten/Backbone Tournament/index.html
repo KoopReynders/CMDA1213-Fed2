@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Backbone.js Web App</title>
+        <link rel="stylesheet" href="css/screen.css" />
+    </head>
+    <body>
+        <div id="tournament"></div>
+
+        <script id="tournamentTemplate" type="text/template">
+            <h1><%= name %></h1>
+            <p><%= info %></p>
+        </script>
+
+        <script src="js/lib/jquery-1.7.1.min.js"></script>
+        <script src="js/lib/json2.js"></script>
+        <script src="js/lib/underscore-min.js"></script>
+        <script src="js/lib/backbone-min.js"></script>
+		<script src="js/app/models/tournamentModel.js"></script>
+		<script src="js/app/views/tournamentView.js"></script>
+        <script src="js/app/app.js"></script>
+    </body>
+</html>
