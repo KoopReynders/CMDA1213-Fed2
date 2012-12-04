@@ -55,26 +55,49 @@ Hoe verhouden de competenties zich tot de opgestelde leerdoelen
 ##Lesprogramma
 Het lesprogramma bestaat uit 9 lessen inclusief de eindtoets in lesweek 9.
 
-- Les 0: Voorbereiding - JavaScript fundamentals voorbereiden > Values, Variables, Control flow, Functions, Objects and Arrays
- 
-- Les 1: Codemonkies - Introduktie JavaScript > Leren denken in objecten
 
-- Les 2: I'm an Object - OOP
+| Lesweek | Beschrijving | College | Werkopdrachten | Weekly Nerd | Toetsing | Huiswerk |
+| ------- | ------------ | --- | --- | --- | --- |
+| 1 Codemonkies | Introductie JavaScript OOP - Leren denken in objecten 1 | HTML5 API's | Mini college over local, global en objecten | Oefenen met objecten | - | Voorbereiden Javascript fundamentals | Values, Variables, Control flow, Functions, Objects and Arrays |
+| | | | Scoping, local, Global en objecten |
+| | | | Self invoked function |
+| | | | Codecadamy: Introduction to Objects I - What is an Object, over methods en properties |
+| | | | Object constructor, Prototype, Object literal |
+| 2 I'm an Object | OOP - Leren denken in objecten 2 | - | Oefenen met objecten | | - | |
+| | | | Codecadamy: Introduction to Objects II - Closer look at Objects, over Classes en Prototype, Inheritance / Overerving, Public, private and methods |
+| | | | Omzetten van een aantal functies naar een script gebaseerd op objecten, breakdown maken, Objecten maken. Let op scoping, self-invoked functies, object literal |
+| 3 Fork me | Introduktie MVC - Backbone 1 | Wat is MVC? | Backbone skeleton opzetten | | - | |
+| | | | mvc1 Teams maken en Repo op Github |
+| | | | mvc2 Breakdown maken van de 3 pagina's Schedule.html, Ranking.html, Game.html |
+| | | | mvc3 Backbone skeleton opzetten, model, collection, view, template |
+| | | | mvc4 Losse bestanden, Structuur als namespace en/of Global |
+| 4  | MVC - Backbone 2 | - | Backbone skeleton opzetten | | - | | 
+| | | | mvc5 Filteren & ordenen |
+| | | | mvc6 Werken met een API, Json binnenhalen/GET|
+| | | | mvc7 Toevoegen & Weghalen |
+| 5  | MVC - Backbone 3 | - | Backbone skeleton opzetten | | Deeltoets 1 Mondeling (summatief) | |
+| | | | mvc8 Routing |
+| | | | mvc9 Werken met een API, Json wegschrijven/POST |
+| | | | webapp1 Breakdown maken en beoordelen (summatief) |
+| Kerstvakantie |
+| 6  | Interface & interactie | Mobile development | | | Herkansing Deeltoets 1 | |
+| | | | webapp2  |
+| 7  | Interface & interactie | - | | | | |
+| | | | webapp3  |
+| 8  | Crashtest Webapp | - | Webapp testen | - | test rapport | |
+| 9  | Eindtoets Webapp | - | - | - | Beoordeling eindopdracht (formatief) | |
 
-- Les 3: Fork me - Introduktie MVC 
 
-- Les 4: - MVC Server vs. Client data
-
-- Les 5: - MVC the View / Deeltoets (summatief)
-
-- Les 6: Interface en interactiepatronen
-
-- Les 7: Interface en interactiepatronen
-
-- Les 8: / Crashtest
-
-- Les 9: / Eindtoets (formatief)
-
+**Beoordelingen**
+Wekelijks Weekly Nerd
+Deeltoets 1 Mondeling 3 pagina's (Summatief) > Vragen aan Server side scripting
+	+ elkaars code nakijken
+Breakdown vd 3 pagina's > Vragen aan Data modeleren
+Breakdown vd Webapp > Vragen aan Data modeleren
+Crashtest Webapp beoordeling > Vragen aan Evidence based design
+Eindtoets Webapp
+	+ elkaars code nakijken
+	
 
 	
 Wanneer vertellen over Meteor? En/of advanced framworkers?
@@ -85,6 +108,46 @@ Wanneer relecteren op het beroep Frontend developer?	Misschie de klas ook de vra
 	Vasilis van Gemert uitnodigen?
 
 
+	Als ze dit hebben gehad (en snappen), den ben ik tevreden:
+		Model
+		
+		
+	1 Fundamentals (voor de webdeveloper) :
+		Programmeren in JavaScript - Objecten, Local en Global Scope, Methods, Properties, Classes, Inheritance en meer
+	
+	2 Gestructureerd programmeren in JavaScript :
+			MVC, Waarom ? 
+				Met meer mensen tegelijk aan een webapp werken
+				Code hergebruiken, denken in componenten en modules
+				Unit tests
+				Efficienteren code
+				Leesbaarheid
+					
+				Bedrijven werken daarom zo
+				
+			Breakdown maken
+				Wat moet het worden 
+				Bepalen MosCoW > prioritiseren Must - Should - Could - Wont
+				Hoeveel tijd kost het om het te maken
+				Wie doet welk werk
+				
+			Code structureren
+				Mappenstructuur
+				Hierarcheren
+				Functies inititaliseren
+
+	3 Layout & Interactie
+		Interactie- en interfacepatronen voor een mobiele webapp
+		
+		Creatief programeren aan de frontend
+		Code gebruiken voor de interactie
+		
+
+		Les 3: Lesdoelen
+		- Opzetten van applicatie in Backbone > Skeleton
+		- Hiërarchieren van je code. Waar ga je je functies inititliseren/uitvoeren
+		- Breakdown maken
+		- Versiecontrolle en issuetracking opzetten
 
 		Les 3: College over MVC
 			Voordelen van MVC
@@ -94,20 +157,14 @@ Wanneer relecteren op het beroep Frontend developer?	Misschie de klas ook de vra
 		Werken in Teams > 
 		Hoe werken met Github ?
 		
-		Elkaar beoordelen in Github, oefenen deeltoets 1?
-		Studenten moeten elkaar beoordelen op de code. 
-		Rubrik ontwikkelen.
-		Je krijgt zelf een cijfer als je iemand ander hebt beoordeeld.
-		https://class.coursera.org/interactivepython-2012-001/human_grading/view?assessment_id=11
 		
-		
-		Les 3 & 4 & 5: Vanaf hier werken aan de eindopdracht
+
 
 			Skeleton neerzetten voor de eindopdracht
 		
 			[Breakdown Webapp] 3 pagina's
-				 - Games: Wedstrijd laten zien (+met scores posten) 
 				 - Schedule: Schedule laten zien, rondes en volgende rondes (+auto-updates op schedule inbouwen)
+				 - Games: Wedstrijd laten zien (+met scores posten) 
 				 - Ranking: Ranglijsten & Pools laten zien (+met timeline?)
 			
 			Studenten worden individueel beoordeelt 
@@ -122,19 +179,23 @@ Wanneer relecteren op het beroep Frontend developer?	Misschie de klas ook de vra
 
 				Local storage?
 
-			vanaf les 5 > Views/Templates
+		
+		Les 3 & 4 & 5: Vanaf hier werken aan de eindopdracht
+		
+		vanaf les 5 > Views/Templates
 				Progressive enhancement? Gracefull degredation
 				Crossbrowser?
 				CSS, object georienteerd?
-			Les 5 Waar gaat de deeltoets over? MVC Skeleton. 
+		Les 5 Waar gaat de deeltoets over? MVC Skeleton. 
 				Hoe laten zien
 				Toetsen wat we behandelen in les 3 en 4
 				
 				
-			Les 6,7 Routing in Backbone, interface en interactie
+		Les 6,7 Routing in Backbone, interface en interactie
 				Vanaf hier Routing functionaliteit en interface + interactie
 				Mobile interaction patronen
 					1 page app maken met 1 index.html
+
 
 
 
@@ -164,7 +225,22 @@ Wanneer relecteren op het beroep Frontend developer?	Misschie de klas ook de vra
 	
 
 	Threesome Ultimate Tournament - http://www.playwithlv.com/tournaments/18334/threesome/
-		
+
+	
+	Skeleton neerzetten in MVC
+	Data binnenhalen
+	Data in collecties plaatsen
+		en zo nodig (geen internet meer?) lokaal: teams wijzigen, deleten, toevoegen, scores opslaan en synchroniseren op de achtergrond
+	Collecties ordenen en filteren
+	
+
+		Elkaar beoordelen in Github, oefenen deeltoets 1?
+		Studenten moeten elkaar beoordelen op de code. 
+		Rubrik ontwikkelen.
+		Je krijgt zelf een cijfer als je iemand ander hebt beoordeeld.
+		https://class.coursera.org/interactivepython-2012-001/human_grading/view?assessment_id=11
+
+
 
 
 ###Weekly Nerd
