@@ -30,9 +30,10 @@ tr{
 tr:nth-child(even){
 	background-color: rgba(100, 200, 100, 0.2);
 }
-.winning_team:after{
-	
-	color: red;
+.winner:after{
+	content: "*"; 
+	color: orange;
+	font-size: 180%;
 }
 
 
