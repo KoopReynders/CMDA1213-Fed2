@@ -36,6 +36,8 @@ Joost Faber j.faber@hva.nl
 **Materiaal:** Papier en pen voor aantekeningen
 **Opstelling:** Rijen, college opstelling
 
+Van objecten voorbeeld IcanHasGeo naar MVC structuur.
+
 Bedrijfsstrategieën voor de Lead developer:
 
 - Voordelen Frameworks/MVC
@@ -56,13 +58,82 @@ Hier een meer algemeen verhaal te houden. Dit moet bijdragen aan strategische ke
 **Materiaal** Laptop en internet
 **Opstelling** Werkeilanden voor team van 3
 
-Werkopdrachten: Backbone neerzetten en Repo aanmaken met het team van 3 personen (20 minuten)
+###1: Breakdown van de app (20 minuten)
+
+Breakdown van eindproduct:
+Eindproduct scoring app voor sport toernooi op basis van de Leaguevine API http://www.playwithlv.com/tournaments/18334/threesome
+
+1. Teampagina - Teaminfo & gespeelde wedstrijden
+2. Rankingpagina - Pools & Brackets
+3. Schedulepagina - Lijst van westrijden per pool of bracket
+	
+
+###2: Repo aanmaken in teams (20 minuten)
+
+Repo aanmaken met het team van 3 personen
+Backbone neerzetten + folder structuur
+
+- index.html
+- team.html
+- ranking.html
+- schedule.html
+	- media
+	- css
+	- js
+		- app
+			- views
+				- team.js
+				- ranking.js
+				- schedule.js
+			- models
+				- team.js
+				- ranking.js
+				- schedule.js
+			- app.js
+		- lib
+			- backbone 0.9.dinges
+			- jquery
+			- underscore
+
+
+###3: Pagina's aanmaken in Backbone (90 minuten)
+
+Breakdown per pagina
+
+- html
+- data
+- model
+- view
+- template
+
+
+1. Maak pagina aan, laad javascripten enzo
+2. Maak app.js met data-array
+3. Maak model voor je pagina
+4. Maak view voor je pagina
+5. Maak een template voor je pagina
+6. Render functie in je view
+7. Initialiseer je pagina in app.js
+8. Klaar! Wat hebben we nu eigenlijk gedaan? 
+	Laat het kwartje vallen 
+		> Stap voor stap vraaggesprek van achteren naar voren 
+		> Wat is MVC?
+	
+
+Huiswerk voor de studenten die hier niets van begrijpen.
+
+
+
+
+
 
 **Werken in Teams**
 Hoe werken in Github > in de les aanmaken van de Repo
 eisen en criteria duidelijk maken mbt. Github en de eindopdracht
 Wat willen we zien?
 Wat gaan we volgen?
+
+
 
 **Opdrachten**
 
