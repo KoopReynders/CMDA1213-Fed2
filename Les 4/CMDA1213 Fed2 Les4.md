@@ -6,6 +6,8 @@ CMDA201213-Fed2 Les 4
 
 Werken met een MVC framework (les 4)
 
+[tShirt_hipHipArray](http://www.neatoshop.com/product/Hip-Hip-Array)
+
 ###Docenten
 Koop Reynders k.g.reynders@hva.nl 
 
