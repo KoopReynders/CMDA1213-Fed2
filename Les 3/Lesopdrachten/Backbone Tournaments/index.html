@@ -7,9 +7,9 @@
         <link rel="stylesheet" href="css/screen.css" />
     </head>
     <body>
-        <ul id="tournaments">
-        </ul>
-
+        
+		<ul id="league"></ul>
+		
         <script id="tournamentTemplate" type="text/template">
 				<h1><%= name %></h1>
 				<h2><%= schedulingFormat %></h2>
@@ -23,10 +23,6 @@
         <script src="js/libs/backbone-min.js"></script>
 
 		<!-- Application -->
-		<script src="js/app/models/tournamentModel.js"></script>
-		<script src="js/app/collections/tournamentsCollection.js"></script>
-		<script src="js/app/views/tournamentView.js"></script>
-		<script src="js/app/views/tournamentsView.js"></script>
         <script src="js/app/app.js"></script>
     </body>
 </html>
