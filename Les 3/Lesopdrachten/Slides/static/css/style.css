@@ -380,9 +380,9 @@ article.external a {
 span.highlight {
 	padding:3px 5px;
 	margin:-3px 0;
-	border:1px solid #ccc;
-	background-color:#eee;
-	color:#000;
+	border:1px solid #666600;
+	background-color:#669900;
+	color:#fff;
 	border-radius:10px;
 }
 /* Quotes */
@@ -396,5 +396,9 @@ blockquote {
 	opacity:0;
 }
 .impress-enabled #mvc-html-explanation.active {
+	display:block;
+}
+.source {
+	margin-left:50px;
 	display:block;
 }
