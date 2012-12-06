@@ -4,16 +4,18 @@
     <head>
         <meta charset="UTF-8" />
         <title>Backbone.js Web App</title>
+		<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/screen.css" />
     </head>
     <body>
+		<div id="wrapper">
+			<ul id="league"></ul>
+		</div>	
         
-		<ul id="league"></ul>
 		
         <script id="tournamentTemplate" type="text/template">
 				<h1><%= name %></h1>
-				<h2><%= schedulingFormat %></h2>
-				<p><%= info %></p>
+				<h2>Format: <strong><%= schedulingFormat %></strong></h2>
         </script>
 		
 		<!-- Libraries -->
