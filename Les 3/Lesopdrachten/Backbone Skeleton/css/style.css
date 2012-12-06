@@ -6,8 +6,15 @@
     line-height: 140%;
 
 }
-header{
+body > header{
 	background-color: rgba(100, 200, 100, 0.4);
+	text-align: center;
+}
+body > header h1{
+	font-size: 100%
+}
+body > header h1 span{
+	font-size: 80%
 }
 
 
@@ -23,7 +30,11 @@ tr{
 tr:nth-child(even){
 	background-color: rgba(100, 200, 100, 0.2);
 }
-
+.winner:after{
+	content: "*"; 
+	color: orange;
+	font-size: 180%;
+}
 
 
 /* Test data*/

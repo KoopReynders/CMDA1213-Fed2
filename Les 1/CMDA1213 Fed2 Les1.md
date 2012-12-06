@@ -6,6 +6,8 @@ CMDA201213-Fed2 Les 1
 
 Deze les geeft een snelle introductie in programmeren in JavaScript. Op basis van de 'Fundamentals' die je moest lezen ter voorbereiding wordt tijdens de les een basis gelegd voor Object georiënteerd programmeren: Leren denken in objecten.
 
+[tShirt_codeMonkey](http://www.swag-city.com/code-monkey-computer-geek-shirt-p-21072.html)
+
 ###Docenten
 Koop Reynders k.g.reynders@hva.nl 
 

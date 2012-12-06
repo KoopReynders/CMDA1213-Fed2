@@ -70,30 +70,29 @@ Het lesprogramma bestaat uit 9 lessen inclusief de eindtoets in lesweek 9.
 | | | | mvc1 Teams maken en Repo op Github |
 | | | | mvc2 Breakdown maken van de 3 pagina's Schedule.html, Ranking.html, Game.html |
 | | | | mvc3 Backbone skeleton opzetten, model, collection, view, template |
-| | | | mvc4 Losse bestanden, Structuur als namespace en/of Global |
+| | | | mvc4 1 script omzetten naar losse bestanden, Structuur als namespace en/of Global |
 | 4  | MVC - Backbone 2 | - | Backbone skeleton opzetten | | - | | 
 | | | | mvc5 Filteren & ordenen |
 | | | | mvc6 Werken met een API, Json binnenhalen/GET|
 | | | | mvc7 Toevoegen & Weghalen |
 | 5  | MVC - Backbone 3 | - | Backbone skeleton opzetten | | Deeltoets 1 Mondeling (summatief) | |
-| | | | mvc8 Routing |
-| | | | mvc9 Werken met een API, Json wegschrijven/POST |
-| | | | webapp1 Breakdown maken en beoordelen (summatief) |
+| | | | webapp1 Routing |
+| | | | webapp2 Werken met een API, Json wegschrijven/POST |
+| | | | webapp3 Breakdown maken en beoordelen (summatief) tekenen, lijst (js/html/css/general stuff), tijds inschatting|
 | Kerstvakantie |
 | 6  | Interface & interactie | Mobile development | | | Herkansing Deeltoets 1 | |
-| | | | webapp2  |
+| | | | webapp4  |
 | 7  | Interface & interactie | - | | | | |
-| | | | webapp3  |
+| | | | webapp5  |
 | 8  | Crashtest Webapp | - | Webapp testen | - | test rapport | |
 | 9  | Eindtoets Webapp | - | - | - | Beoordeling eindopdracht (formatief) | |
 
 
 **Beoordelingen**
 Wekelijks Weekly Nerd
-Deeltoets 1 Mondeling 3 pagina's (Summatief) > Vragen aan Server side scripting
+Deeltoets 1 Mondeling 3 pagina's (summatief) > Vragen aan Server side scripting
 	+ elkaars code nakijken
-Breakdown vd 3 pagina's > Vragen aan Data modeleren
-Breakdown vd Webapp > Vragen aan Data modeleren
+Breakdown vd Webapp (summatief) > Vragen aan Data modeleren
 Crashtest Webapp beoordeling > Vragen aan Evidence based design
 Eindtoets Webapp
 	+ elkaars code nakijken

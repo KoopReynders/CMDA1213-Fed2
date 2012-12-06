@@ -6,6 +6,8 @@ CMDA201213-Fed2 Les 3
 
 Werken met een MVC framework (les 3) 
 
+[tShirt_forkYou](http://shop.github.com/products/fork-you-shirt-mens-medium)
+
 ###Docenten
 Koop Reynders k.g.reynders@hva.nl 
 
