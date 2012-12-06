@@ -391,6 +391,13 @@ blockquote {
 	font-style:italic;
 	margin:100px;
 }
+blockquote p {
+	font-family:georgia;
+}
+blockquote cite {
+	font-size:.3em;
+	margin-left:50px;
+}
 /* Explanation */
 .impress-enabled .explanation {
 	opacity:0;
