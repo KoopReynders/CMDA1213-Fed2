@@ -12,19 +12,25 @@ FED2.LeagueView = Backbone.View.extend({
 		
 		this.collection.sort();
 		
-		// filter 
+		this.render(this.collection.models);
+		
+		// filter models from collection
 		var filtered = _.filter(this.collection.models, function(data) {
 		  	return data.get("schedulingFormat") == "swiss";
 		});
 		
-		// reject
+		//this.render(filtered);
+		
+		// reject models from collection
 		var rejected = _.reject(this.collection.models, function(data) {
 		  	return data.get("schedulingFormat") == "swiss";
 		});
 		
-		this.render(this.collection.models);
-        //this.render(filtered);
 		//this.render(rejected);
+		
+		
+        
+		
     },
 
     render: function (data) {
