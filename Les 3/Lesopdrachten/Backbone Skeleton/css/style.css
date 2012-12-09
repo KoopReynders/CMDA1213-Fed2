@@ -32,7 +32,7 @@ tr:nth-child(even){
 }
 .winner:after{
 	content: "*"; 
-	color: orange;
+	color: red;
 	font-size: 180%;
 }
 
