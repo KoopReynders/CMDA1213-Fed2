@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Backbone.js Web App</title>
+		<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/screen.css" />
+    </head>
+    <body>
+		<div id="wrapper">
+			<h1 id="frisbee_league">Frisbee league</h1>
+			<ul id="league"></ul>
+		</div>	
+        
+		
+        <script id="tournamentTemplate" type="text/template">
+				<h1><%= name %></h1>
+				<h2>Format: <strong><%= schedulingFormat %></strong></h2>
+        </script>
+		
+		<!-- Libraries -->
+        <script src="js/libs/jquery-1.7.1.min.js"></script>
+        <script src="js/libs/json2.js"></script>
+        <script src="js/libs/underscore-min.js"></script>
+        <script src="js/libs/backbone-min.js"></script>
+
+		<!-- Application -->
+        <script src="js/app/app.js"></script>
+    </body>
+</html>

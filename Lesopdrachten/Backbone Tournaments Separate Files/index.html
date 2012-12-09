@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Backbone.js Web App</title>
+        <link rel="stylesheet" href="css/screen.css" />
+    </head>
+    <body>
+        <ul id="league"></ul>
+
+        <script id="tournamentTemplate" type="text/template">
+				<h1><%= name %></h1>
+				<h2><%= schedulingFormat %></h2>
+				<p><%= info %></p>
+        </script>
+		
+		<!-- Libraries -->
+        <script src="js/libs/jquery-1.7.1.min.js"></script>
+        <script src="js/libs/json2.js"></script>
+        <script src="js/libs/underscore-min.js"></script>
+        <script src="js/libs/backbone-min.js"></script>
+
+		<!-- Application -->
+		<script src="js/app/models/tournament.js"></script>
+		<script src="js/app/collections/league.js"></script>
+		<script src="js/app/views/tournament.js"></script>
+		<script src="js/app/views/league.js"></script>
+		
+		<script src="js/app/app.js"></script>
+    </body>
+</html>

@@ -1,9 +1,9 @@
 // define tournaments view
-App.LeagueView = Backbone.View.extend({
+FED2.LeagueView = Backbone.View.extend({
     el: $("#league"),
 
     initialize: function () {
-        this.collection = new App.League(App.leagueData);
+        this.collection = new FED2.League(FED2.leagueData);
         this.render();
     },
 
@@ -16,7 +16,7 @@ App.LeagueView = Backbone.View.extend({
     },
 
     renderTournament: function (item) {
-        var tournamentView = new App.TournamentView({
+        var tournamentView = new FED2.TournamentView({
             model: item
         });
         this.$el.append(tournamentView.render().el);
@@ -25,4 +25,4 @@ App.LeagueView = Backbone.View.extend({
 
 
 //create instance of master view
-App.league = new App.LeagueView();
+FED2.league = new FED2.LeagueView();
