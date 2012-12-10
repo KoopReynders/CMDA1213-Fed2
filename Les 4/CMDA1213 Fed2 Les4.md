@@ -14,9 +14,11 @@ Koop Reynders k.g.reynders@hva.nl
 Joost Faber j.faber@hva.nl
 
 ###Lesdoelen
-1. Introductie MVC
-2. Wat is Frontend development?
-3. Werken met Javascript MVC Backbone
+1. Wat is Frontend development?
+2. Scoping, namespace en bestandstructuur van Backbone MVC
+3. Data manipuleren: Sorteren, filteren, toevoegen en verwijderen
+4. Json binnenhalen met een exteren API
+5. Deeltoets 1 uitleggen
 
 
 ###Programma (200 minuten)

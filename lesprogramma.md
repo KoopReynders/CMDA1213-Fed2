@@ -90,7 +90,7 @@ Het lesprogramma bestaat uit 9 lessen inclusief de eindtoets in lesweek 9.
 
 **Beoordelingen**
 Wekelijks Weekly Nerd
-Deeltoets 1 Mondeling 3 pagina's (summatief) > Vragen aan Server side scripting
+Deeltoets 1 Mondeling 3 pagina'≠s (summatief) > Vragen aan Server side scripting
 	+ elkaars code nakijken
 Breakdown vd Webapp (summatief) > Vragen aan Data modeleren
 Crashtest Webapp beoordeling > Vragen aan Evidence based design
