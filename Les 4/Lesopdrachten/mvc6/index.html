@@ -4,13 +4,26 @@
     <head>
         <meta charset="UTF-8" />
         <title>Backbone.js Web App</title>
-		<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/screen.css" />
     </head>
     <body>
 		<div id="wrapper">
 			<h1 id="frisbee_league">Frisbee league</h1>
-	        <ul id="league"></ul>
+	        <article id="league">
+				<nav>
+					<ul>
+						<li>
+							<select class="filter">
+								<option value="swiss">Swiss</option>
+								<option value="regular">Regular</option>
+								<option value="unknown">Unknown</option>
+							</select>
+						</li>
+					</ul>
+				</nav>
+	        	<ul class="tournaments"></ul>
+	        </article>
+			
 		</div>
 		
 
