@@ -31,11 +31,12 @@
 		</div>	
         
 		<!-- Template -->
-        <script id="gameTemplate" type="text/template">	
+        <script id="gameTemplate" type="text/template">
+			
 			<td><%= date %></td>
-			<td><%= team1 %></td>
+			<td <% if( team1Score  > team2Score) { %> class="winner" <% }%> ><%= team1 %></td>
 			<td><%= team1Score %> - <%= team2Score %></td>
-			<td><%= team1 %></td>
+			<td <% if( team2Score  > team1Score) { %> class="winner" <% }%> ><%= team1 %></td>
         </script>
 		
 		<!-- Libraries -->

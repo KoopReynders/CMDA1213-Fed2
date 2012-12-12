@@ -60,3 +60,8 @@ th.team, td.team {
 	#league strong {
 		color:#fff;
 	}
+.winner::after {
+	content: "*";
+	color: red;
+	font-size: 180%;
+}
