@@ -27,12 +27,15 @@ table {
 	padding:10px;
 }
 th, td {
-	text-align:left;
+	text-align:center;
 	white-space:nowrap;
 	padding:2px 10px 2px 0;
 }
 th {
 	color:red;
+}
+th.team, td.team {
+	text-align:left;
 }
 #league {
 	list-style:none;

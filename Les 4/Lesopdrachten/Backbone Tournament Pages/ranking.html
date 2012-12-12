@@ -20,12 +20,11 @@
 	            </header>
 	            <table id="pool">
 	                <tr>
-	                    <th>Team</th>
+	                    <th class="team">Team</th>
 	                    <th>W</th>
 	                    <th>L</th>
 	                    <th>Sets won</th>
 	                    <th>Sets lost</th>
-	                    <th>+/-</th>
 	                    <th>Points won</th>
 	                    <th>Points lost</th>
 	                    <th>+/-</th>
@@ -37,14 +36,14 @@
         
 		<!-- Template -->
         <script id="teamTemplate" type="text/template">	
-			<td><%= team %></td>
+			<td class="team"><%= team %></td>
 			<td><%= Win %></td>
 			<td><%= Lost %></td>
 			<td><%= Sw %></td>
 			<td><%= Sl %></td>
 			<td><%= Pw %></td>
 			<td><%= Pl %></td>
-			<td><%= Pw %> - <%= Pl %></td>
+			<td><%= saldo %></td>
        	</script>
 		
 		<!-- Libraries -->

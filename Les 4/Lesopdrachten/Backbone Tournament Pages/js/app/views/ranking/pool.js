@@ -7,7 +7,6 @@ FED2.PoolView = Backbone.View.extend({
     initialize: function () {
 		// Specify collection for this view
 		this.collection = new FED2.Pool(FED2.poolData);
-		console.log(this.collection);
 		
 		// Render view
         this.render();
