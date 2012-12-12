@@ -5,16 +5,16 @@ FED2.LeagueView = Backbone.View.extend({
     initialize: function () {
         this.collection = new FED2.League(FED2.leagueData);
 		
-		this.render(this.collection.models);
+		//this.render(this.collection.models);
 		
-		/*
+		
 		//filter models from collection
 		var filtered = _.filter(this.collection.models, function(data) {
 		  	return data.get("schedulingFormat") == "regular";
 		});
 		
 		this.render(filtered);
-		*/
+		
 		
 		/*
 		//reject models from collection
@@ -28,6 +28,7 @@ FED2.LeagueView = Backbone.View.extend({
 
     render: function (data) {
         var that = this;
+		console.log(data);
 		
         _.each(data, function (item) {
             that.renderTournament(item);

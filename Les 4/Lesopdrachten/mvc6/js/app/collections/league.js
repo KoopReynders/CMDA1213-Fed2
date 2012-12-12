@@ -2,7 +2,13 @@
 FED2.League = Backbone.Collection.extend({
     model: FED2.Tournament,
 	
-	comparator : function(league) {
+	comparator : function (league) {
 		return league.get("name");
+	},
+	
+	filtered: function (target) {
+		var filtered = _.filter(this, function(data) {
+		  	return data.get("schedulingFormat") == target.value;
+		});
 	}
 });

@@ -20,11 +20,9 @@ FED2.LeagueView = Backbone.View.extend({
 	filter: function (ev) {
 		var target = ev.currentTarget;
 		
-		var filtered = _.filter(this.collection.models, function(data) {
-		  	return data.get("schedulingFormat") == "swiss";
-		});
-		
-		this.collection.reset(filtered);
+		var filtered = _.filter(this.collection.models, function(data) { return data.get("schedulingFormat") == target.value; });	
+
+		this.render(this.collection.reset(filtered));
 	},
 	
 	// Reject models from collection
@@ -42,8 +40,8 @@ FED2.LeagueView = Backbone.View.extend({
 	},
 
     render: function (data) {
+		console.log("Render: " + data);
         var that = this;
-		console.log(data);
 		
         _.each(data, function (item) {
             that.renderTournament(item);
