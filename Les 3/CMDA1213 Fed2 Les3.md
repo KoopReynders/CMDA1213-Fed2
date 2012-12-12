@@ -16,7 +16,8 @@ Joost Faber j.faber@hva.nl
 ###Lesdoelen
 1. Introductie MVC
 2. Wat is Frontend development?
-3. Werken met Javascript MVC Backbone
+3. Werken met Javascript MVC Backbone: Het Model, View, Template en de collection
+4. Samenwerken met Github
 
 
 ###Programma (200 minuten)
@@ -52,6 +53,45 @@ Hier een meer algemeen verhaal te houden. Dit moet bijdragen aan strategische ke
 ##3. De Weekly Nerd - 30 minuten (60/200)
 **Materiaal:** -
 **Opstelling:** klas in 2 groepen? 2 grote eilanden
+
+Mobile Fed (groep 1.1)
+De eerste editie van de weekley nerd door studenten is aangebroken. Voor deze editie hebben we de 5 artikelen geselecteerd die interessant zijn voor de front-end developer in het mobiele werkveld. articles.forEach(read(), article){}
+
+####JS, Good but not always
+Javascript: Interactie op de frontend (en een beetje CSS en nog steeds Flash en ...)
+
+The problem
+
+ 1. Usr verwacht een native app, die kun je niet waarmaken met JavaScipt
+ 2. sodf 
+ 3. JavaScript werkt niet crossbrowser hetzelfde
+ 4. Kost veel meer tijd om te testen, al die apparaten
+ 5. "If in doubt leave out" < is dit een JavaScript specifiek probleem?
+
+The solution
+
+ 1. Ensure all features
+ 2. Mobile First, reduce complexity
+ 3. Vraag je af: Kost het meer om extra complexitiet te bouwen?
+ 4. Test om de waarde van feautures te bepalen
+ 5. Toenemende complexiteit zal je product duurder maken
+ 
+Don't try to compete with native applications and when in doubt, leave it out.
+
+
+
+####YUIConf 2010 Panel Discussion: The Future of Frontend Engineering
+
+
+####Early findings: 97% of mobile end-user response time happens at the front end
+
+
+
+####CSS3 & HTML5 & JS against Native
+
+
+####We have to optimize for mobile
+
 
 
 
@@ -171,6 +211,9 @@ Werkwijze en planning van het vak
 Huiswerk aankondigen
 
 http://net.tutsplus.com/?s=backbone
+
+
+
 
 
 
