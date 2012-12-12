@@ -16,7 +16,7 @@ Joost Faber j.faber@hva.nl
 ###Lesdoelen
 1. Introductie MVC
 2. Wat is Frontend development?
-3. Werken met Javascript MVC Backbone: Het Model, View, Template en de collection
+3. Werken met Javascript MVC Backbone: Het Model, de View, Template en Collection
 4. Samenwerken met Github
 
 
@@ -34,6 +34,10 @@ Joost Faber j.faber@hva.nl
 **Materiaal:** - 
 **Opstelling:** College opstelling
 
+Wat hebben we gedaan
+Wat gaan we doen
+Programma voor vandaag
+
 
 ##2. College - 20 minuten (30/200)
 **Materiaal:** Papier en pen voor aantekeningen
@@ -45,7 +49,7 @@ Bedrijfsstrategieën voor de Lead developer:
 
 - Voordelen Frameworks/MVC
 - Nadelen Framworks/MVC, denk aan bedrijven en keuzes voor een framework.
-Hier een meer algemeen verhaal te houden. Dit moet bijdragen aan strategische keuzes die de (technische) studenten moeten kunnen maken aangaande teamwerk, workflow, techniek in het bedrijfsleven
+Dit moet bijdragen aan strategische keuzes die de (technische) studenten moeten kunnen maken aangaande teamwerk, workflow, techniek in het bedrijfsleven
 - Versie beheer, bugtracking > Github
 
 
@@ -54,8 +58,8 @@ Hier een meer algemeen verhaal te houden. Dit moet bijdragen aan strategische ke
 **Materiaal:** -
 **Opstelling:** klas in 2 groepen? 2 grote eilanden
 
-Mobile Fed (groep 1.1)
-De eerste editie van de weekley nerd door studenten is aangebroken. Voor deze editie hebben we de 5 artikelen geselecteerd die interessant zijn voor de front-end developer in het mobiele werkveld. articles.forEach(read(), article){}
+###Mobile Fed (groep 1.1)
+De eerste editie van de Weekley Nerd door studenten is aangebroken. Voor deze editie hebben we de 5 artikelen geselecteerd die interessant zijn voor de front-end developer in het mobiele werkveld. articles.forEach(read(), article){}
 
 ####JS, Good but not always
 Javascript: Interactie op de frontend (en een beetje CSS en nog steeds Flash en ...)
@@ -78,21 +82,40 @@ The solution
  
 Don't try to compete with native applications and when in doubt, leave it out.
 
-
-
 ####YUIConf 2010 Panel Discussion: The Future of Frontend Engineering
-
 
 ####Early findings: 97% of mobile end-user response time happens at the front end
 
-
-
 ####CSS3 & HTML5 & JS against Native
-
 
 ####We have to optimize for mobile
 
 
+###Concurrenten van Javascript (Groep 2.1)
+Concurrenten van Javascript? Dit vak gaat toch alleen over javascript zelf? Waarom moeten we dan iets lezen over andere script-talen?
+
+####Google Dart
+What on earth is Google Dart?
+Google tries to solve the issues that exist in JavaScript
+
+ - This all sounds great. The developer community must be overjoyed!
+ - But the developers of web browsers must at least be pleased?
+ 
+
+####TypeScript
+Microsoft TypeScript: the JavaScript we need, or a solution looking for a problem?
+
+####The Next Big Language
+Wat wordt de nieuwe frontend taal? Waar moet deze aan voldoen?
+Rule #1: C-like syntax
+Rule #2: Dynamic typing with optional static types.
+Rule #3: Performance
+Rule #4: Tools
+Rule #5: Kitchen Sink
+Rule #6: Multi-Platform
+
+Wanneer is een taal goed en wanneer slecht?
+Moet een taal malti-platform zijn?
 
 
 
@@ -100,104 +123,104 @@ Don't try to compete with native applications and when in doubt, leave it out.
 **Materiaal** Laptop en internet
 **Opstelling** Werkeilanden voor team van 3
 
-###1: Breakdown van de app (20 minuten)
 
-Breakdown van eindproduct:
-Eindproduct scoring app voor sport toernooi op basis van de Leaguevine API http://www.playwithlv.com/tournaments/18334/threesome
+Deze les gaan we beginnen met het Backbone skeleton opzetten van de Scoring app.
 
-1. Teampagina - Teaminfo & gespeelde wedstrijden
-2. Rankingpagina - Pools & Brackets
-3. Schedulepagina - Lijst van westrijden per pool of bracket
+In les 3 behandelen we: 
+
+ 1. **mvc1** Teams maken en Repo op Github
+ 2. **mvc2** Breakdown maken van de 3 pagina's Schedule.html, Ranking.html, Game.html
+ 3. **mvc3** Backbone skeleton opzetten, model, collection, view, template in je App.js
+ 4. **mvc4** Het script omzetten naar losse bestanden, Structuur als namespace en/of Global
+
+Volgende week behandelen we:
+
+ 5. **mvc5** Filteren & ordenen van data-lijst
+ 6. **mvc6** Events
+ 7. **mvc7** Toevoegen & Weghalen van elementen in de data-lijst
+ 8. **mvc6** Werken met een API, Json binnenhalen/GET
+
 	
 
-###2: Repo aanmaken in teams (20 minuten)
+###mvc1: teams maken en Repo opzetten op Github (20 minuten)
 
 Repo aanmaken met het team van 3 personen
 Backbone neerzetten + folder structuur
+Alle teamleden werken aan 1 pagina: Schedule, Ranking of Game
+Dus maak je nu ook per pagina een eigen App.js functies aan appSchedule.js, appRanking.js en appGame.js
+Dit doe je omdat je met Github versiecontrol gaat regelen, dan wil je niet in hetzelfde App.js werken voor de verschillende pagina's.
 
-- index.html
-- team.html
-- ranking.html
-- schedule.html
-	- media
-	- css
-	- js
-		- app
-			- views
-				- team.js
-				- ranking.js
-				- schedule.js
-			- models
-				- team.js
-				- ranking.js
-				- schedule.js
-			- app.js
-		- lib
-			- backbone 0.9.dinges
-			- jquery
-			- underscore
+Zorg dat je eop Github een master hebt staan en werk zelf allemaal in je eigen branch. Deze synchroniseer je naar de master als je aanpassingen hebt gedaan. Kijk [hier voor een uitleg van Donny](http://cl.ly/2Z0d2I114514)
 
+Na les 3 en 4 ziet je mappen structuur er ongeveer zo uit:
 
-###3: Pagina's aanmaken in Backbone (90 minuten)
+	(- index.html)
+	- game.html
+	- ranking.html
+	- schedule.html
+		- media
+		- css
+		- js
+			- app
+				- views
+					- team.js
+					- ranking.js
+					- schedule.js
+				- models
+					- team.js
+					- ranking.js
+					- schedule.js
+				(- app.js) 
+				- appGame.js
+				- appRanking.js
+				- appSchedule.js
+			- lib
+				- backbone 0.9.dinges
+				- jquery
+				- underscore
 
-Breakdown per pagina
+###mvc2: Breakdown van de app (20 minuten)
 
-- html
-- data
-- model
-- view
-- template
+Breakdown van eindproduct:
+Het Eindproduct scoring app voor sport toernooi op basis van de [Leaguevine API](https://www.leaguevine.com/tournaments/18519/threesome/) 
+Bekijk [de mobile scoring App](https://m.leaguevine.com) die Leaguevine zelf heeft gemaakt
 
+Je develop team bestaat uit 3 leden die voor deeltoets 1 allemaal een eigen pagina gaan maken:
 
-1. Maak pagina aan, laad javascripten enzo
-2. Maak app.js met data-array
-3. Maak model voor je pagina
-4. Maak view voor je pagina
-5. Maak een template voor je pagina
-6. Render functie in je view
-7. Initialiseer je pagina in app.js
-8. Klaar! Wat hebben we nu eigenlijk gedaan? 
-	Laat het kwartje vallen 
-		> Stap voor stap vraaggesprek van achteren naar voren 
-		> Wat is MVC?
-	
-
-Huiswerk voor de studenten die hier niets van begrijpen.
+1. Game-pagina - Wedstrijden met sets en scores
+2. Ranking-pagina - Pools & Brackets
+3. Schedule-pagina - Lijst van westrijden per pool of bracket
 
 
 
+###mvc3: Backbone skeleton opzetten (90 minuten)
 
+Werken aan je app,js met daarin
+een model
+een collection
+de view
+de template definite in de html
 
+Op Github staat hoe je pagina eruit moet komen te zien:
 
-**Werken in Teams**
-Hoe werken in Github > in de les aanmaken van de Repo
-eisen en criteria duidelijk maken mbt. Github en de eindopdracht
-Wat willen we zien?
-Wat gaan we volgen?
+1. [Game-pagina](https://github.com/KoopReynders/CMDA1213-Fed2/blob/master/Les%203/Lesopdrachten/Backbone%20Skeleton/game.html)
+2. [Ranking-pagina](https://github.com/KoopReynders/CMDA1213-Fed2/blob/master/Les%203/Lesopdrachten/Backbone%20Skeleton/ranking.html)
+3. [Schedule-pagina](https://github.com/KoopReynders/CMDA1213-Fed2/blob/master/Les%203/Lesopdrachten/Backbone%20Skeleton/schedule.html)
 
+Op Github staat het voorbeeld dat we in de les hebben behandeld
+Backbone Model, Views, Collection, Template [voorbeeld](https://github.com/KoopReynders/CMDA1213-Fed2/blob/master/Les%203/Lesopdrachten/Backbone%20Tournaments/js/app/app.js)
 
+###mvc4: Het script omzetten naar losse bestanden (90 minuten)
 
-**Opdrachten**
+Als je met meerdere developers aan één project werkt wil je je code duidelijk structuren en opdelen in verschillende files. Net zoals we in les 2 het IcanHasGeo script hebben omgezet in objecten moet je nu je app.js script opdelen in verschillende files.
+De model bewaar je in de map /js/app/model/
+De View bewaar je in /js/app/view/
+De collectie in /js/app/collectie/
+en de tempate definieer je in de html zelf.
 
-[Tutsplus](http://net.tutsplus.com/?s=backbone)
+Als je je script omzet in losse files, let dan goedop de scoping. Bedenk of je alle globaal wil definieren of in een namespace. Lees bijvoorbeeld [hier](http://elegantcode.com/2011/01/26/basic-javascript-part-8-namespaces/) meer over je code opzetten in een namespace.
 
-Minicollege over MVC in Backbone (zoals de code school cursus)
-
-Breakdown van de Score Werbapp maken
-Breakdown van de 3 objecten
-Waar bestaat de eindopdracht uit:
-	Schedule (model&view)
-	Games (model&view)
-	Ranking (model&view)
-
-Werken aan het skeleton van de eindopdracht
-	- Inheritance / Overerving komt aan bod, daar hebben we ook mee geoefend in les 2
-
-
-**Werken met Doco**
-	Dit ook gebruiken om elkaars code te beoordelen
-
-
+Op Github staat een voorbeeld van het Backbonen project in een [globale scope](https://github.com/KoopReynders/CMDA1213-Fed2/tree/master/Les%203/Lesopdrachten/Backbone%20Tournaments%20global) en in een [namespace](https://github.com/KoopReynders/CMDA1213-Fed2/tree/master/Les%203/Lesopdrachten/Backbone%20Tournaments%20namespace) 
 
 
 ##5. Terugkijken - 10 minuten (200/200)
@@ -206,11 +229,12 @@ Werken aan het skeleton van de eindopdracht
 
 Lesdoelen: Wat hebben we behandeld? 
 
-Werkwijze en planning van het vak
+Werkwijze en planning van het vak > op naar deeltoets1
 
-Huiswerk aankondigen
+Huiswerk aankondigen: Hoe ver moet je zijn?
+Doe nog een keer huiswerk voor les 3 en zorg dat je app met losse files maakt. Model. Collection. View en template
 
-http://net.tutsplus.com/?s=backbone
+[Tutsplus](http://net.tutsplus.com/?s=backbone)
 
 
 

@@ -23,14 +23,11 @@ Joost Faber j.faber@hva.nl
 
 ###Programma (200 minuten)
 
-1. Huishoudelijke mededelingen (10) 
+1. Huishoudelijke mededelingen (5) 
 2. College (0)
 3. Weekly Nerd (30) 
 4. Werkopdrachten (150)
-5. Terugkijken (10) 
-6. Tussentijdse feedback (10)
-		
-
+5. Terugkijken & deeltoets 1 bespreken (15)
 		
 
 ##1. Huishoudelijke mededelingen - 10 minuten (10/200)
@@ -45,23 +42,52 @@ Joost Faber j.faber@hva.nl
 
 ##3. De Weekly Nerd - 30 minuten (40/200)
 **Materiaal:** -
-**Opstelling:** klas in 2 groepen? 2 grote eilanden
+**Opstelling:** klas in 2 groepen - 2 grote eilanden
 
 
 ##4. Werkopdrachten - 150 minuten (190/200)
 **Materiaal** Laptop en internet
 **Opstelling** Werkeilanden voor team van 3
 
-Werken met de leaguevine API - Json 
+Deze les gaan we verder met het Backbone skeleton van de Scoring app.
 
-Werkopdrachten: Werken aan het skeleton van de eindopdracht
-	- Schedule model-view
-	- Ranking model-view
-	- Game model-view
+In les 3 hebben we behandeld: 
+
+ 1. **mvc1** Teams maken en Repo op Github
+ 2. **mvc2** Breakdown maken van de 3 pagina's Schedule.html, Ranking.html, Game.html
+ 3. **mvc3** Backbone skeleton opzetten, model, collection, view, template in je App.js
+ 
+Het huiswerk was:
+
+ 4. **mvc4** Het script omzetten naar losse bestanden, Structuur als namespace en/of Global
+
+
+Nu heb je een Backbone project bestaande uit losse componenten. Vandaag gaan we de data manipuleren:
+
+ 5. **mvc5** Filteren & ordenen van data-lijst
+ 6. **mvc6** Events
+ 7. **mvc7** Toevoegen & Weghalen van elementen in de data-lijst
+ 8. **mvc8** Werken met een API, Json binnenhalen/GET
+
+
+###Huiswerk bespreken: Namespace of Global scope ()
+
+
+###mvc5: Filteren & Ordenen van data-lijst ()
+
+
+###mvc6: Events ()
 
 
 
-##5. Terugkijken - 10 minuten (200/200)
+###mvc7: Toevoegen & Weghalen van elementen in de data-lijst ()
+
+###mvc8: [optioneel of als huiswerk] Werken met een API, Json binnenhalen/GET ()
+
+
+
+
+##5. Terugkijken & deeltoets 1 bekijken - 15 minuten (200/200)
 **Materiaal** Intranet
 **Opstelling** - 
 
@@ -69,7 +95,9 @@ Lesdoelen: Wat hebben we behandeld?
 
 Werkwijze en planning van het vak
 
-Huiswerk aankondigen
+Wat moet je kunnen voor deeltoets 1
+
+
 
 ##6. Feedback
 **Materiaal** Stickies aantal kleuren

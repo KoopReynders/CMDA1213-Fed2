@@ -70,11 +70,12 @@ Het lesprogramma bestaat uit 9 lessen inclusief de eindtoets in lesweek 9.
 | | | | mvc1 Teams maken en Repo op Github |
 | | | | mvc2 Breakdown maken van de 3 pagina's Schedule.html, Ranking.html, Game.html |
 | | | | mvc3 Backbone skeleton opzetten, model, collection, view, template |
-| | | | mvc4 1 script omzetten naar losse bestanden, Structuur als namespace en/of Global |
+| | | | mvc4 1 script omzetten naar losse bestanden |
 | 4  | MVC - Backbone 2 | - | Backbone skeleton opzetten | | - | | 
 | | | | mvc5 Filteren & ordenen |
-| | | | mvc6 Werken met een API, Json binnenhalen/GET|
+| | | | mvc6 Evenst |
 | | | | mvc7 Toevoegen & Weghalen |
+| | | | mvc8 (optioneel of als huiswerk) Werken met een API, Json binnenhalen/GET|
 | 5  | MVC - Backbone 3 | - | Backbone skeleton opzetten | | Deeltoets 1 Mondeling (summatief) | |
 | | | | webapp1 Routing |
 | | | | webapp2 Werken met een API, Json wegschrijven/POST |
