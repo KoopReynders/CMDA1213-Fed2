@@ -102,9 +102,7 @@
 	    render: function () {
 	        var self = this;
 
-	        _.each(this.collection.models, function (item) {
-	            self.renderTournament(item);
-	        }, this);
+	        _.each(this.collection.models, this.renderTournament, this);
 	    },
 		
 		// Render tournament *(custom method)*
