@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Backbone.js Web App</title>
+        <link rel="stylesheet" href="css/screen.css" />
+    </head>
+    <body>
+		<div id="wrapper">
+			<h1 id="frisbee_league">Frisbee league</h1>
+	        <article id="league">
+				<nav>
+					<ul>
+						<li>
+							<select class="filter">
+								<option value="all">Show all</option>
+								<option value="swiss">Swiss</option>
+								<option value="regular">Regular</option>
+								<option value="unknown">Unknown</option>
+							</select>
+						</li>
+					</ul>
+				</nav>
+	        	<ul class="tournaments"></ul>
+	        </article>
+			
+		</div>
+		
+
+        <script id="tournamentTemplate" type="text/template">
+			<h1><%= name %></h1>
+			<h2>Format: <strong><%= schedulingFormat %></strong></h2>
+        </script>
+		
+		<!-- Libraries -->
+        <script src="js/libs/jquery-1.7.1.min.js"></script>
+        <script src="js/libs/json2.js"></script>
+        <script src="js/libs/underscore-min.js"></script>
+        <script src="js/libs/backbone-min.js"></script>
+
+		<!-- Application -->
+		<script src="js/app/app.js"></script>
+		<script src="js/app/models/tournamentModel.js"></script>
+		<script src="js/app/collections/leagueCollection.js"></script>
+		<script src="js/app/views/tournamentView.js"></script>
+		<script src="js/app/views/leagueView.js"></script>
+		
+        
+    </body>
+</html>
