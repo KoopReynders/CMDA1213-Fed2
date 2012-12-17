@@ -3,19 +3,26 @@ FED2.TournamentView = Backbone.View.extend({
     tagName: "li",
     template: $("#tournamentTemplate").html(),
 	
+	// Attach event handler to view elements
 	events: {
 	    "click a.delete": "deleteTournament"
 	},
 	
-	deleteTournament: function () {
-	   var removedType = this.model.get("schedulingFormat").toLowerCase();
-	    this.model.destroy();
+	// Delete tournament model
+	deleteTournament: function (e) {
+		e.preventDefault();
+	    
+		var removedType = this.model.get("schedulingFormat").toLowerCase();
+	    
+		this.model.destroy();
 	    this.remove();
-	    if (_.indexOf(directory.getTypes(), removedType) === -1) {
-	        directory.$el.find("#filter select").children("[value='" + removedType + "']").remove();
+	    
+		if (_.indexOf(FED2.league.getTypes(), removedType) === -1) {
+	        FED2.league.$el.find("#filter select").children("[value='" + removedType + "']").remove();
 	    }
 	},
 	
+	// Render view
     render: function () {
         var tmpl = _.template(this.template);;
         this.$el.html(tmpl(this.model.toJSON()));

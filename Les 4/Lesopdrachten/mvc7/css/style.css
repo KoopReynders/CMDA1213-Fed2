@@ -211,7 +211,7 @@
 
     /* Styles */
     background: #fffaf6;
-	background: rgba(29, 141, 65, 0.38);
+	background: rgba(29, 141, 65, 0.78);
     border-radius: 4px;
     color: #7e7975;
     box-shadow:
@@ -232,8 +232,8 @@
 
 .form-2 h1 .log-in,
 .form-2 h1 .sign-up {
-    display: inline-block;
-    text-transform: uppercase;
+    display: block;
+    xtext-transform: uppercase;
 }
 
 .form-2 h1 .log-in {
@@ -280,9 +280,9 @@ color:#fff;
 
 .form-2 input[type=text],
 .form-2 input[type=password] {
-    font-family: 'Lato', Calibri, Arial, sans-serif;
+    xfont-family: 'Lato', Calibri, Arial, sans-serif;
     font-size: 13px;
-    font-weight: 400;
+    font-weight: normal;
     display: block;
     width: 100%;
     padding: 5px;
@@ -333,6 +333,8 @@ color:#fff;
 }
 
 .form-2 input[type=submit] {
+	float:right;
+	margin-top:5px;
     margin-left: 1%;
     background: #fbd568; /* Fallback */
     background: -moz-linear-gradient(#fbd568, #ffb347);

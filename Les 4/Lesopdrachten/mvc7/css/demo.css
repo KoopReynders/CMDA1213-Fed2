@@ -38,7 +38,7 @@ a {
 	padding: 20px 10px 10px 10px;
 	position: relative;
 	display: block;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	xtext-shadow: 1px 1px 1px rgba(0,0,0,0.2);
     text-align: center;
 }
 
@@ -49,7 +49,7 @@ a {
 	position: relative;
 	font-weight: 300;
 	color: #666;
-	text-shadow: 0 1px 1px rgba(255,255,255,0.6);
+	xtext-shadow: 0 1px 1px rgba(255,255,255,0.6);
 }
 
 .container > header h2 {
@@ -60,7 +60,7 @@ a {
 	color: #666;
 	font-family: Cambria, Georgia, serif;
 	font-style: italic;
-	text-shadow: 0 1px 1px rgba(255,255,255,0.6);
+	xtext-shadow: 0 1px 1px rgba(255,255,255,0.6);
 }
 
 /* Header Style */
@@ -124,7 +124,7 @@ a {
 	line-height: 20px;	
 	font-size: 12px;
 	font-weight: 700;
-	text-shadow: 1px 1px 1px #fff;
+	xtext-shadow: 1px 1px 1px #fff;
 	border: 1px solid #fff;
 	background: #ffffff; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6+ */

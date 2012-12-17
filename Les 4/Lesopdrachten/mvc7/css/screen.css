@@ -9,7 +9,6 @@ body {
 	background-size:100%;
 	padding-top:20px;
 	x-webkit-transform-style: preserve-3d;
-	x-webkit-perspective: 400;
 }
 #wrapper {
 	width:97%;
