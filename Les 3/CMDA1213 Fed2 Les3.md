@@ -150,7 +150,7 @@ Alle teamleden werken aan 1 pagina: Schedule, Ranking of Game
 Dus maak je nu ook per pagina een eigen App.js functies aan appSchedule.js, appRanking.js en appGame.js
 Dit doe je omdat je met Github versiecontrol gaat regelen, dan wil je niet in hetzelfde App.js werken voor de verschillende pagina's.
 
-Zorg dat je eop Github een master hebt staan en werk zelf allemaal in je eigen branch. Deze synchroniseer je naar de master als je aanpassingen hebt gedaan. Kijk [hier voor een uitleg van Donny](http://cl.ly/2Z0d2I114514)
+Zorg dat je op Github een master hebt staan en werk zelf allemaal in je eigen branch. Deze synchroniseer je naar de master als je aanpassingen hebt gedaan. Kijk [hier voor een uitleg van Donny](http://cl.ly/2Z0d2I114514)
 
 Na les 3 en 4 ziet je mappen structuur er ongeveer zo uit:
 
@@ -178,6 +178,9 @@ Na les 3 en 4 ziet je mappen structuur er ongeveer zo uit:
 				- backbone 0.9.dinges
 				- jquery
 				- underscore
+
+[Github]
+
 
 ###mvc2: Breakdown van de app (20 minuten)
 

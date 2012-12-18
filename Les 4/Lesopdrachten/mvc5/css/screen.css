@@ -6,6 +6,7 @@ body {
 	color:#fff;
 	font-family:verdana;
 	background: url('../img/frisbee.jpeg') no-repeat fixed;
+	background-size:100%;
 	padding-top:20px;
 }
 #wrapper {

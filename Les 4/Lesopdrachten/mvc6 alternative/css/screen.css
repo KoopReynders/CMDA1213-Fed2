@@ -1,0 +1,50 @@
+﻿* {
+	margin:0;
+	padding:0;
+}
+body {
+	color:#fff;
+	font-family:verdana;
+	background: url('../img/frisbee.jpeg') no-repeat fixed;
+	background-size:100%;
+	padding-top:20px;
+}
+#wrapper {
+	width:500px;
+}
+h1 {
+	font-family: Georgia;
+	font-size:1.2em;
+	margin-bottom:.5em;
+	margin-left:20px;
+}
+h2 {
+	font-weight:normal;
+	font-size:1em;
+}
+#league {
+	padding-left:20px;
+}
+ul {
+	list-style:none;
+}
+	ul.tournaments li {
+		width:80%;
+		background-color:rgba(0,0,0,.75);
+		border:1px solid #ccc;
+		padding:2%;
+		margin:20px 20px 20px 0;
+		border-radius:20px;
+		box-shadow:0 0 6px rgba(0,0,0,0.5);
+	}
+	ul.tournamentsh1 {
+		text-align:left;
+		font-size:1.75em;
+		margin-left:0;
+	}
+	ul.tournaments h2 {
+		color:#666;
+	}
+	ul.tournaments strong {
+		color:#fff;
+	}
