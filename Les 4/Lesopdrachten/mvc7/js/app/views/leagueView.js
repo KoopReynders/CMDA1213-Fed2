@@ -53,12 +53,15 @@ FED2.LeagueView = Backbone.View.extend({
 	      }
 	    });
 	    FED2.leagueData.push(newModel);
+	    
 	    if (_.indexOf(this.getTypes(), newModel.schedulingFormat) === -1) {
 	         this.collection.add(new FED2.Tournament(newModel));
 	        this.$el.find("#filter").find("select").remove().end().append(this.createSelect());
 	    } else {
 	        this.collection.add(new FED2.Tournament(newModel));
 	    }
+	    
+	    this.collection.reset(FED2.leagueData);
 	},
 	
 	// Remove tournament model
