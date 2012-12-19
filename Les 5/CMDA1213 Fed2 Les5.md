@@ -25,10 +25,12 @@ Joost Faber j.faber@hva.nl
 
 1. Huishoudelijke mededelingen (10)
 2. Weekly Nerd (30) 
-3. Deeltoets (100)
-4. Werkopdrachten (100)
-5. Eindopdracht (50)
+3. Werkopdrachten (100)
+	1. Zelfstandig werken aan opdrachten 
+	2. Deeltoets
+4. Eindopdracht (50)
 5. Terugkijken (10) 
+6. Evaluatie (10)
 		
 		
 
@@ -43,7 +45,7 @@ Joost Faber j.faber@hva.nl
 
 
 
-##2. Deeltoets - 100 minuten (140/200)
+##3. Deeltoets - 100 minuten (140/200)
 **Materiaal:** Laptop en internet
 **Opstelling:** Werkeilanden voor team van 3
 
@@ -51,12 +53,12 @@ Joost Faber j.faber@hva.nl
 
 
 
-##4. Werkopdrachten - 100 minuten (140/200)
+##3. Werkopdrachten - 100 minuten (140/200)
 **Materiaal** Laptop en internet
 **Opstelling** Werkeilanden voor team van 3
 
 
-##5. Eindopdracht - 50 minuten (190/200)
+##4. Eindopdracht - 50 minuten (190/200)
 **Materiaal** Laptop en internet
 **Opstelling** Werkeilanden voor team van 3
 
@@ -73,6 +75,15 @@ Lesdoelen: Wat hebben we behandeld?
 Werkwijze en planning van het vak
 
 Huiswerk aankondigen
+
+
+
+
+##6. Feedback
+**Materiaal** Stickies aantal kleuren
+**Opstelling** - 
+
+Vragen over lesstructuur, huiswerk, tips-ter-verbetering
 
 
 
