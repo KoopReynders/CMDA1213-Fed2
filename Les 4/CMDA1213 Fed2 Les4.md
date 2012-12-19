@@ -14,10 +14,10 @@ Koop Reynders k.g.reynders@hva.nl
 Joost Faber j.faber@hva.nl
 
 ###Lesdoelen
-1. Wat is Frontend development?
+1. Weekly Nerd: Wat is Frontend development?
 2. Scoping, namespace en bestandstructuur van Backbone MVC
 3. Data manipuleren: Sorteren, filteren, toevoegen en verwijderen
-4. Json binnenhalen met een exteren API
+4. (Json binnenhalen met een exteren API)
 5. Deeltoets 1 uitleggen
 
 
@@ -44,6 +44,22 @@ Joost Faber j.faber@hva.nl
 **Materiaal:** -
 **Opstelling:** klas in 2 groepen - 2 grote eilanden
 
+Tom Hoogenboom moet volgende week  per artikel van de redactiegroep twee vragen bedenken.
+
+Ron Geertsema moeten per artikel van hun redactiegroep twee vragen bedenken.
+
+	Voorbeeld vraag over het artikel Concept to Code 
+	Code literacy in UX van Ryan Betts:
+
+	Vraag 1a 	Welke 4 archetypes staan in het artikel beschreven? 
+	Benoem ze en leg kort uit wat Ryan Betts ermee bedoelt.	Vraag 1b	Ryan Betts stelt in zijn artikel
+	“Code literacy can help you achieve 
+	a higher quality end product”. 
+	Leg het begrip Code literacy uit 
+	en geef je eigen menig over zijn stelling.
+
+
+
 
 ##4. Werkopdrachten - 150 minuten (190/200)
 **Materiaal** Laptop en internet
@@ -51,12 +67,6 @@ Joost Faber j.faber@hva.nl
 
 Deze les gaan we verder met het Backbone skeleton van de Scoring app.
 
-In les 3 hebben we behandeld: 
-
- 1. **mvc1** Teams maken en Repo op Github
- 2. **mvc2** Breakdown maken van de 3 pagina's Schedule.html, Ranking.html, Game.html
- 3. **mvc3** Backbone skeleton opzetten, model, collection, view, template in je App.js
- 
 Het huiswerk was:
 
  4. **mvc4** Het script omzetten naar losse bestanden, Structuur als namespace en/of Global
@@ -95,15 +105,47 @@ Lesdoelen: Wat hebben we behandeld?
 
 Werkwijze en planning van het vak
 
-Wat moet je kunnen voor deeltoets 1
+###Wat moet je kunnen voor deeltoets 1?
+
+Tijdens les 5 wordt deeltoets 1 van de maakopdracht afgenomen door middel van een mondeling.
+
+Het mondeling wordt afgenomen in duo's > 10 minuten.
+Dit is NIET iemand uit je team. We proberen studenten met dezelfde pagina's tegelijk te toetsen.
+Zo kunnen we ook vragen om naar elkaars code te kijken.
+
+Wat neem je mee? Zie [intranet](http://intra.iam.hva.nl/content/1213/verdieping2/frontend_2/maakopdracht/)
+
+- Een laptop met de backbone Webapp van je pagina: Schedule, Ranking of Game
+- De Webapp is opgebouwd met behulp van Backbone js
+- De Webapp bestaat uit de onderdelen die in de lessen zijn behandeld:
+	- De Webapp bestaat uit losse bestanden, de app.js, een model, collection, view en een template in de HTML
+	- De data kan worden gemanipuleerd: Sorteren, filteren, toevoegen en verwijderen
+- Op basis van je code moet je vragen kunnen beantwoorden over object georiënteerd programmeren, bijvoorbeeld over de onderwerpen: classes, objecten, arrays, functies, scoping, control-flow, events, inheritance, closure, Prototype, Namespace, best-practice naamgeving, én over de Backbone objecten: models, collection, views en template en hun functionaliteiten
+
+Voorbeeld vragen:
+
+- Leg uit wat prototypal inherritance inhoudt
+- Leg uit wat een closure is
+- Waarom is het af te raden om veel globale variabelen en objecten te gebruiken
+- Wat is het verschil tussen een object literal en een object constructor?
+- Wat is een callback functie?
+- Waarvoor dient de constructie var self = this?
+- Wat is het voordeel van OOP (in javascript)?
+- Leg uit wat een Namespace is en hoe je het implementeert in javascript
+- Wat is een self invoking anonymous function en waar gebruik je die voor
+- Wat zijn de hoofdcomponenten van backbone.js
+- Hoe kan je models toevoegen en verwijderen uit een collection.
+- Wat doet de render functie?
+- Hoe geef je aan dat een model bij een view hoort?
+- Wat is het verschil tussen een view en een template?
+- Wanneer wordt de initialize functie van een Backbone.js component aangeroepen?
+- Wat doet de comparator functie?
+- Wat is Underscore.js en wat is de relatie met Backbone.js?
 
 
 
-##6. Feedback
-**Materiaal** Stickies aantal kleuren
-**Opstelling** - 
 
-Vragen over lesstructuur, huiswerk, tips-ter-verbetering
+
 
 
 
