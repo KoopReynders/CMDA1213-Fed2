@@ -180,6 +180,32 @@ Na les 3 en 4 ziet je mappen structuur er ongeveer zo uit:
 				- underscore
 
 [Github]
+Maak je eigen branch. Dit is een afgeleide van de master.
+
+**Na een aanpassing doe je: Remote branch synchroniseren**
+Dit doe je als je wijzigingen in je branch ook remote wil synchroniseren
+
+git add . (wijzigingen toevoegen aan je lokale branch)
+git commit -m "commit comment" (wijzigingen klaar zetten om te synchroniseren)
+git push origin branchNaam (wijzigingen toevoegen aan remote branch)
+
+**Master branch synchroniseren met je eigen branch**
+Dit doe je als je wijzigingen in je eigen branch naar de master wil synchroniseren. Daarna kan je teamgenoot ook deze wijzigingen ophalen
+
+git checkout master (lokaal in de master gaan staan)
+git merge branchNaam (Master en je eigen branch synchroniseren)
+git push origin master (wijzigingen toevoegen aan remote master branch)
+
+
+**Wijzigingen in de Master branch ophalen**
+
+git checkout master 
+git pull 
+
+
+
+
+
 
 
 ###mvc2: Breakdown van de app (20 minuten)
