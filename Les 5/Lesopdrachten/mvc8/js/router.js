@@ -3,15 +3,12 @@
 (function () {
 	"use strict";
 	define([
-		'jquery',
-		'underscore',
-		'backbone',
 		'config',
 		'models/tournament',
 		'views/home/home',
 		'views/tournament/tournament'
 		
-	], function ($, _, Backbone, config, TournamentModel, homeView, TournamentView) {
+	], function (config, TournamentModel, homeView, TournamentView) {
 		var AppRouter = Backbone.Router.extend({
 			tournamentView:"",
 			routes: {
@@ -26,6 +23,8 @@
 				var tournamentModel = new TournamentModel({id:config.tournamentID});
 				this.tournamentView = new TournamentView({model: tournamentModel});
 				this.tournamentView.render();
+
+
 			},
 			defaultAction: function (actions) {
 				// We have no matching route, lets display the home page

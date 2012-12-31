@@ -13,47 +13,54 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 
-	<script data-main="js/main" src="js/libs/require/require.js"></script>
+	
 </head>
 <body>
 
-	<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Leaugevine Tournament Software</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="#/tournament">Tournament</a></li>
+			  <li><a href="#">Schedule</a></li>
+			  <li><a href="#">Ranking</a></li>
+			  <li><a href="#">Game</a></li>	
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
 
-	    <div class="navbar navbar-inverse navbar-fixed-top">
-	      <div class="navbar-inner">
-	        <div class="container-fluid">
-	          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	          </a>
-	          <a class="brand" href="#">Leaugevine Tournament Software</a>
-	          <div class="nav-collapse collapse">
-	            <ul class="nav">
-	              <li><a href="#/tournament">Tournament</a></li>
-				  <li><a href="#">Schedule</a></li>
-				  <li><a href="#">Ranking</a></li>
-				  <li><a href="#">Game</a></li>	
-	            </ul>
-	          </div><!--/.nav-collapse -->
-	        </div>
-	      </div>
-	    </div>
-
-	    <div class="container-fluid content">
-		
-			<div class="row-fluid" id="page">
-				<article class="span12">
-						
-				</article><!--/span-->
-			</div><!--/row-->
+    <div class="container-fluid content">
 	
-			<footer>
-				<p>Web application build with <strong>Backbone.js</strong> | <strong>Require.js</strong> | <strong>jQuery</strong> | <strong>Twitter Bootstrap</strong></p>
-			</footer>
-		
-		</div><!--/.fluid-container-->
+		<div class="row-fluid" id="page">
+			<article class="span12">
+					
+			</article><!--/span-->
+		</div><!--/row-->
+
+		<footer>
+			<p>Web application build with <strong>Backbone.js</strong> | <strong>Require.js</strong> | <strong>jQuery</strong> | <strong>Twitter Bootstrap</strong></p>
+		</footer>
+	
+	</div><!--/.fluid-container-->
+
+	<!-- Libraries -->
+
+	<script src="js/libs/jquery/jquery-min.js"></script>
+	<script src="js/libs/bootstrap/bootstrap-min.js"></script>
+	<script src="js/libs/underscore/underscore-min.js"></script>
+	<script src="js/libs/backbone/backbone-optamd3-min.js"></script>
 
 
+	<!-- Kickstart application -->
+	<script data-main="js/main" src="js/libs/require/require.js"></script>
 </body>
 </html>

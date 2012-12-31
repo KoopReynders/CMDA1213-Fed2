@@ -1,9 +1,6 @@
 define([
-  'jquery',
-  'underscore',
-  'backbone',
   'models/team'
-], function($, _, Backbone, teamModel){
+], function(teamModel){
   var rankingCollection = Backbone.Collection.extend({
     model: teamModel,
     initialize: function(){
