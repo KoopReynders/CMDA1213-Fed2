@@ -6,15 +6,25 @@
 		'config'
 	], function (config) {
 		var TournamentModel = Backbone.Model.extend({
-			url:config.api + 'tournaments/' + config.tournamentID + "?access_token=e5cd000956",
+			// Define API url
+			url: config.api + 'tournaments/' + config.tournamentID + "/?callback=?",
 
 			initialize: function () {
-   				var self = this;
+   				
+   				// Fetch dat from API
+   				this.fetch();
 
+   				// Save data to API
+   				this.set({"name":"Blabla"});
+				this.save();
+
+
+   				/*
+   				// Custom data fetching
 				var loadData = function (data) {
-					self.set(data);
-					self.set({"name":"Blabla"});
-					self.save();
+					this.set(data);
+					this.set({"name":"Blabla"});
+					this.save();
 				};
 
 			    $.ajax({
@@ -22,9 +32,11 @@
 					url: config.api + 'tournaments/' + config.tournamentID + "/?callback=?",
 					// Pool data
 					// url: 'https://api.leaguevine.com/v1/pools/?tournament_id=18519&callback=?',
+					context:this,
 					success: loadData,
 					dataType: 'json'
 				});
+				*/
 
  			},
 
