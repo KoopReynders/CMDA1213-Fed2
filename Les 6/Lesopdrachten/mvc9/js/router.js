@@ -4,14 +4,13 @@
 	"use strict";
 	define([
 		'config',
-		'models/tournament',
 		'views/home/home',
 		'views/tournament/tournament',
 		'views/tournament/schedule',
 		'views/tournament/ranking',
 		'views/tournament/game'
 		
-	], function (config, TournamentModel, homeView, TournamentView, scheduleView, rankingView, gameView) {
+	], function (config, homeView, tournamentView, scheduleView, rankingView, gameView) {
 		var AppRouter = Backbone.Router.extend({
 			tournamentView:"",
 			
@@ -28,9 +27,7 @@
 			},
 
 			showTournament: function (actions) {
-				var tournamentModel = new TournamentModel();
-				this.tournamentView = new TournamentView({model: tournamentModel});
-				this.tournamentView.render();
+				tournamentView.render();
 			},
 
 			showSchedule: function (actions) {
