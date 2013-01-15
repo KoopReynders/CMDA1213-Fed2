@@ -37,41 +37,6 @@
 					dataType: 'json'
 				});
 				*/
-				
-				
-				/*** Save data to API ***/
-				/*
-				// Get code
-				$.urlParam = function(name){
-				    var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);
-				    if (!results)
-				    { 
-				        return 0; 
-				    }
-				    return results[1] || 0;
-				};
-				
-				var code = $.urlParam('code');
-
-				if (!code) {
-					window.location.href = config.oAuthUri +"authorize/?client_id="+ config.clientID +"&response_type=code&redirect_uri="+ config.redirectUri +"&scope=universal"
-				}
-				
-				var getAccessToken = function(data) {
-					this.url = config.api + 'tournaments/' + config.tournamentID + '/?access_token=' + data.access_token;
-
-					// Set & save name
-					this.set({"name":"Dodge it better"});
-					this.save();
-				}
-
-			    $.ajax({
-					url: config.oAuthUri +"token/?client_id="+ config.clientID +"&client_secret="+ config.clientSecret + "&code="+ code +"&grant_type=authorization_code&redirect_uri="+ config.redirectUri,
-					context:this,
-					success: getAccessToken,
-					dataType: 'jsonp'
-				});
-				*/
  			}
 		});
 		
