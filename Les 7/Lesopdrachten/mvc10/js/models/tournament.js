@@ -7,36 +7,31 @@
 	], function (config) {
 		var TournamentModel = Backbone.Model.extend({
 			// Define API url
-			url: config.api + 'tournaments/' + config.tournamentID + "/?callback=?",
+			url: config.api + 'tournaments/' + config.tournamentID,
+
 
 			initialize: function () {
-   				
-   				// Fetch dat from API
-   				this.fetch();
-
-   				// Save data to API
-   				this.set({"name":"Blabla"});
-				this.save();
-
-
-   				/*
-   				// Custom data fetching
-				var loadData = function (data) {
-					this.set(data);
-					this.set({"name":"Blabla"});
-					this.save();
-				};
-
-			    $.ajax({
-			    	// Tournament data
-					url: config.api + 'tournaments/' + config.tournamentID + "/?callback=?",
-					// Pool data
-					// url: 'https://api.leaguevine.com/v1/pools/?tournament_id=18519&callback=?',
-					context:this,
-					success: loadData,
-					dataType: 'json'
-				});
-				*/
+   				this.save({
+		            type: 'PUT',
+		            contentType: 'application/json',
+		            headers: {
+		                Authorization: 'bearer '+config.access_token
+		            },
+		            data: JSON.stringify({
+		                "name": "Dodge it best",
+		                "season_id": "20157",
+		                "start_date": "2013-01-01",
+		                "end_date": "2013-02-01",
+		                "info": "hello joost"
+		            }),
+		            success: function(data) {
+		                if(typeof data !== 'object') {
+		                    data = $.parseJSON(data);
+		                }
+		                
+		                console.log(data);
+		            }
+		        });
 
  			},
 

@@ -8,8 +8,9 @@ define([], function() {
     clientSecret: "a6cce14b136904b98aacbc7ce41867",
     accessToken: "e5cd000956",
 
-    //Tournament ID
-    tournamentID : 18519
+    /* Tournament ID */
+    //tournamentID    : 18519     // Threesomes
+    tournamentID  : 18552     // Dodge it good
                    
   }
 });
