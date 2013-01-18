@@ -28,3 +28,6 @@ button:hover {
 	background-color:#930;
 	-webkit-transform: scale(1.1);
 }
+.make-me-smaller-please {
+	width:400px;
+}
