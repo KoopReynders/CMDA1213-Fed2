@@ -1,9 +1,9 @@
 // Define config settings
 var config = {
-    tournamentID: 18519,
+    tournamentID: 18590,
     access_token: '109f8a19ae',
     api_url: 'https://api.leaguevine.com/v1/tournaments/',
-    season_id: '20167'
+    season_id: '20126'
 }
 
 // Define model
@@ -52,7 +52,7 @@ var aView = Backbone.View.extend({
     addTournament: function() {
         // New tournament data
         var tournament = {
-            name: 'nieuw tournament v3',
+            name: 'Dodge it to the max',
             start_date: '2013-05-10',
             end_date: '2013-05-15',
             season_id: config.season_id

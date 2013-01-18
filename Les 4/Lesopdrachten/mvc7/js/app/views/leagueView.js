@@ -56,12 +56,14 @@ FED2.LeagueView = Backbone.View.extend({
 	    
 	    if (_.indexOf(this.getTypes(), newModel.schedulingFormat) === -1) {
 	         this.collection.add(new FED2.Tournament(newModel));
+	         this.collection.reset(FED2.leagueData);
 	        this.$el.find("#filter").find("select").remove().end().append(this.createSelect());
 	    } else {
 	        this.collection.add(new FED2.Tournament(newModel));
+	        
 	    }
-	    
 	    this.collection.reset(FED2.leagueData);
+	    
 	},
 	
 	// Remove tournament model
@@ -72,6 +74,7 @@ FED2.LeagueView = Backbone.View.extend({
 	            FED2.leagueData.splice(_.indexOf(FED2.leagueData, item), 1);
 	        }
 	    });
+	    this.collection.reset(FED2.leagueData);
 	},
 
 	// Get types for schedulingFormat select box
