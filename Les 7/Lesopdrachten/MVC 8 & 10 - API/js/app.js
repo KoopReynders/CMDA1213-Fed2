@@ -1,7 +1,7 @@
 // Define config settings
 var config = {
     tournamentID: 18590,
-    access_token: '109f8a19ae',
+    access_token: 'e08a55d872',                    
     api_url: 'https://api.leaguevine.com/v1/tournaments/',
     season_id: '20126'
 }
@@ -43,7 +43,10 @@ var aView = Backbone.View.extend({
                     model.url = model.get('resource_uri');
                 });
                 // Call the addTournament method
-                self.addTournament();
+                //self.addTournament();
+
+                // Call the updateTournament method
+                self.updateTournament();
             }
         });
     },
@@ -52,7 +55,7 @@ var aView = Backbone.View.extend({
     addTournament: function() {
         // New tournament data
         var tournament = {
-            name: 'Dodge it to the max',
+            name: 'May the dodge be with you',
             start_date: '2013-05-10',
             end_date: '2013-05-15',
             season_id: config.season_id
@@ -71,20 +74,57 @@ var aView = Backbone.View.extend({
         newModel.save(
             // The first parameter is the data object
             newModel.toJSON(), {
-            // The second parameter takes request options
-            success: function(data) {
-                // On succes set the new url for the model
-                newModel.url = newModel.get('resource_uri');
-            },
-            error: function(data) {
-                // On error log the error in the console
-                console.log('error');
-            },
-            // Define an authorization header to allow for posting to the API
-            headers: {
-                Authorization: 'bearer '+config.access_token
+                // The second parameter takes request options
+                success: function(data) {
+                    // On succes set the new url for the model
+                    newModel.url = newModel.get('resource_uri');
+                },
+                error: function(data) {
+                    // On error log the error in the console
+                    console.log('error');
+                },
+                // Define an authorization header to allow for posting to the API
+                headers: {
+                    Authorization: 'bearer '+config.access_token
+                }
             }
-        });
+        );
+    },
+
+    // Add a tournament
+    updateTournament: function() {
+        // New tournament data
+        var tournament = {
+            name: 'The dodge is strong in you',
+            start_date: '2013-05-10',
+            end_date: '2013-05-15',
+            season_id: config.season_id
+        }
+        
+        
+        // Update a model to the API, this is a "PUT" request
+        // the save function takes two parameters,
+        var model = this.collection.models[0];
+        model.url = model.get('resource_uri');
+
+        model.save(
+            // The first parameter is the data object
+            tournament, {
+                // The second parameter takes request options
+                success: function(data) {
+                    // On succes set the new url for the model
+                    console.log('succes');
+                },
+                error: function(data) {
+                    // On error log the error in the console
+                    console.log('error');
+                },
+                // Define an authorization header to allow for posting to the API
+                headers: {
+                    Authorization: 'bearer '+config.access_token
+                }
+            }
+        );
     }
 });
 

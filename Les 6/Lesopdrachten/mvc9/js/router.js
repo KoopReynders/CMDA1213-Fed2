@@ -43,6 +43,7 @@
 			},
 
 			defaultAction: function (actions) {
+				
 				homeView.render();
 			}
 		});
