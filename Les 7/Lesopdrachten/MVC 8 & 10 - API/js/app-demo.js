@@ -1,6 +1,6 @@
 var config = {
-    tournamentID: 18488,
-    access_token: '109f8a19ae',
+    tournamentID: 18590,
+    access_token: 'e08a55d872',
     api_url: 'https://api.leaguevine.com/v1/tournaments/',
     season_id: '20157'
 }
