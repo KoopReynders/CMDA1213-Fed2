@@ -1,58 +1,58 @@
 CMDA201213-Fed2
 ===============
 
-#Lesprogramma Frontend 2
-Frontend 2 is een techniek van voor studenten CMD Amsterdam die Frontend developer willen worden.
+# Lesprogramma Frontend 2
+Frontend 2 is een techniek vak voor studenten CMD Amsterdam die Frontend developer willen worden.
 Het vak is een vervolg op Frontend development in de V1. 
 In Frontend 2 gaan we dieper in op technische mogelijkheden van HTML5 API's ==JavaScript. 
 Aan het eind van de cursus kun je een webapp maken met HTML5 API's en JavaScript.   Je leert methoden om met meer developers tegelijk aan een project te werken, je leert (server) data verwerken en (responsive) layout en navigatie patronen realiseren.
 
 
-##Intentie van het vak
+## Intentie van het vak
 
 
-#Randvoorwaarden
+# Randvoorwaarden
 
-##Kenmerken onderwijsleersituatie
+## Kenmerken onderwijsleersituatie
 
-##Kenmerken studenten
+## Kenmerken studenten
 
-##Kenmerken docenten
+## Kenmerken docenten
 Joost faber j.faber@hva.nl
 Koop Reynders k.g.reynders@hva.nl
 
-##Didaktische uitdaging
+## Didaktische uitdaging
 
 
-#Doelstelling
+# Doelstelling
 
-##Leerdoelen
+## Leerdoelen
 
-##Relatie eindtermen van de opleiding en beroepsprofiel
+## Relatie eindtermen van de opleiding en beroepsprofiel
 
 
-#Doceer- en leeractiviteiten
+# Doceer- en leeractiviteiten
 
-##lesopbouw
+## lesopbouw
 Didaktische ordening en strategie
 Van een les. Volgorde van onderdelen. 
 Welke materialen zijn nodig?
 Opstelling van het lokaal.
 
 
-##Toetsplan
+## Toetsplan
 
-###Toetsmatrijs
+### Toetsmatrijs
 Hoe verhouden de competenties zich tot de opgestelde leerdoelen
 
-###Toetsvormen en feedbackprocedure
+### Toetsvormen en feedbackprocedure
 
 
-###Integratie leerdoelen, toetsen en leeractiveiten
+### Integratie leerdoelen, toetsen en leeractiveiten
 
 
 
-##Lesprogramma
+## Lesprogramma
 Het lesprogramma bestaat uit 9 lessen inclusief de eindtoets in lesweek 9.
 
 
@@ -243,7 +243,7 @@ Wanneer relecteren op het beroep Frontend developer?	Misschie de klas ook de vra
 
 
 
-###Weekly Nerd
+### Weekly Nerd
 
 
 
